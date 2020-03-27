@@ -1,6 +1,8 @@
-content: '&copy; Stackbit-Libris. All rights reserved.'
+---
+content: The Music Therapy Association of South Carolina (MTASC) is an affiliate organization
+  of the American Music Therapy Association (AMTA)
 links:
-  - text: Made with Stackbit
-    url: 'https://www.stackbit.com'
-    new_window: true
+- text: Made with Stackbit
+  url: https://www.stackbit.com
+  new_window: true
 has_social: true
