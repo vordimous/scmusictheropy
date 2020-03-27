@@ -7,9 +7,9 @@ sections:
   section_id: hero
   component: hero_block.html
   content: JAMstack is the best, you need to see this
-  image: images/5.jpg
+  image: "/images/cropped-MTASC.Logo2_2-4.jpg"
   actions:
-  - label: Get Started
+  - label: Find out More
     url: docs/index.html
 - type: featuresblock
   template: featuresblock
