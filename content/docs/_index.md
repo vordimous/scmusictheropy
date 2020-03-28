@@ -1,20 +1,12 @@
 ---
-title: Welcome to Libris
+title: Music Therapy Association SC
+layout: docs
+weight: 
+excerpt: ''
 menu:
   main:
     name: Docs
     weight: 2
-layout: docs
+
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt id ante id varius. Fusce a gravida dolor.
-
-***
-
-Sed vel arcu ac ante blandit ultricies quis eget justo. Donec et lacinia sapien, sit amet tempus ligula. Fusce et sagittis massa. Fusce mollis mollis dui eget sagittis. Suspendisse id nunc mauris.
-
-Sed posuere velit ut tellus mollis mollis. Fusce dictum sollicitudin odio nec convallis. Integer et magna quis ligula cursus ullamcorper. Vestibulum eu egestas magna. Proin et tempus nulla. Quisque mattis purus ut pharetra tincidunt. Nulla facilisi. Donec et nunc consectetur, auctor lacus et, dignissim neque. Suspendisse sed massa metus. 
-
-[Morbi ac vulputate enim](https://stackbit.com)
-
-Maecenas metus justo, imperdiet vel velit et, iaculis consectetur risus. Etiam venenatis odio quis vulputate interdum. Nulla facilisi. Pellentesque nibh nibh, elementum sed mauris vel, commodo pretium magna.
+The Music Therapy Association of South Carolina (MTASC) is an affiliate organization of the American Music Therapy Association (AMTA). MTASC is comprised of board-certified music therapists and music therapy students in South Carolina. We support professional development, community awareness and continuing education in the field of music therapy. Use the links to the above to navigate this site in order to contact us, seek information about the profession of music therapy, benefits of membership or to find a music therapist in your area. Thank you for visiting the MTASC website.
