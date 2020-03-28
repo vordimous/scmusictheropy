@@ -24,5 +24,4 @@ fields:
   config:
     required: true
 pages:
-- content/docs/about/education-training.md
 - content/style-guide.md
