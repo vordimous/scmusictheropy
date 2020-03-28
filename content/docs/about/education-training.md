@@ -1,5 +1,4 @@
 +++
-draft = true
 img_path = "/images/11138525_10153993765884887_5373058585984600195_n.jpg"
 layout = "page"
 subtitle = ""
