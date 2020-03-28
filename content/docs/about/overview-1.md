@@ -1,137 +1,46 @@
 +++
-draft = true
+excerpt = ""
 layout = "docs"
-title = "Overview"
+title = "Education & Training"
 weight = 1
 
 +++
-<div class="note">
-  <strong>Note:</strong> 
-  This is the demo content for demonstration purpose only. The primary function of this content is to show you what this theme can do. There is a more detailed explanation in the <strong>Getting Started</strong> section.
-</div>
+![](/images/11138525_10153993765884887_5373058585984600195_n.jpg)
 
-## Callouts
+## General Information
 
-<hr>
+There are over 70 approved college and university programs that offer music therapy training in the United States. A minimum of a bachelor’s degree or equivalency is required to enter the field. During their training music therapy students take part in a demanding curriculum that focuses on the following core areas:  
+• applied music study, music history, music theory/aural skills, and ensembles  
+• music therapy courses (including clinical skills, research, and music psychology)  
+• anatomy/physiology courses, psychology courses, and dance/movement  
+• other related courses  
+Throughout the course of their bachelor’s or equivalency studies, students are involved in 200 hours of field experiences. Upon completion of coursework students must complete 1000 hours of field experience in a National Roster or University-Affiliated Internship. When the internship is complete music therapists are eligible to sit for the board certification exam. Passing the examination leads to entry-level credential MT-BC (Music Therapist-Board Certified) awarded by the Certification Board of Music Therapists (CBMT). In addition, graduate degrees in Music Therapy are available.
 
-There are two types of callouts availabale in this theme, **note** and **important**. To add a callout to your documentation simply add the following `html` code with class `important` or `note`. Like in the example bellow. 
+Professional music therapists follow the standards for clinical interventions and ethical conduct in professional practice, which are defined in the following American Music Therapy Association documents: Music Therapists’ Standards of Clinical Practice, Music Therapists’ Code of Ethics, and AMTA Professional Competencies.
 
-### HTML example
+## Educational Programs in South Carolina
 
-Copy the code and modify these blocks according to your needs.
+[Charleston Southern University](http://www.csuniv.edu/)
 
-```html
-<div class="important">
-  <strong>Important:</strong> 
-  This is an "Important" callout block of text.
-  This block indicates a warning or caution. 
-  Use it for an important message. 
-</div>
-```
+Charleston Southern was the first school in South Carolina to offer this degree program and has been accredited since the late 1970s. Each semester, music therapy students work with children, adults, and geriatrics with various disabilities, using music to help them achieve therapeutic non-musical goals and to improve quality of life.
 
-```html
-<div class="note">
-  <strong>Note:</strong> 
-  This is a "Note" callout block of text. 
-  This block signifies a general note.
-</div>
-```
-### Live example
+Jennifer Whipple, Associate Professor of Music Therapy, Music Therapy Coordinator  
+jwhipple@charlestonsouthern.edu
 
-<div class="important">
-  <strong>Important:</strong> 
-  This is an "Important" callout block of text. 
-  This block indicates a warning or caution.
-  Use it for an important message. 
-</div>
+[Converse College](http://www.converse.edu/)
 
-<div class="note">
-  <strong>Note:</strong> 
-  This is an "Note" callout block of text. 
-  This block signifies a general note.
-</div>
+In 2005, Converse College began to offer their Bachelor of Music Therapy degree. The Department of Music Education and Therapy is dedicated to the music student who wishes to become a classroom music teacher or music therapist. Music Therapy students have the opportunities to work in a variety of settings, both in the community and at the school.
 
-## Code blocks
+Carol Shultis  
+Associate Professor of Music Therapy  
+carol.shultis@converse.edu
 
-<hr>
+## Clinical Training Sites
 
-<div class="note">
-  <strong>Note:</strong>
-  Code blocks have copy functionality. To copy the code press the grey button located in the right side top corner.
-</div>
-
-You can create simple code blocks by placing triple backticks <code>```</code> before and after the code block. To render a code block more readable, we recommend placing a blank line before and after code blocks.
-
-<pre>```
-if (condition) {
-  code to run if condition is true
-} else {
-  run some other code instead
-}
-```
-</pre>
-
-```
-if (condition) {
-  code to run if condition is true
-} else {
-  run some other code instead
-}
-```
-
-### Syntax highlighting
-
-You can add a language identifier to enable syntax highlighting in your code block. For example, to syntax highlight **JavaScript** code, specify `javascript` next to the tick marks before the fenced code block:
-
-<pre>
-```javascript
-if (condition) {
-  code to run if condition is true
-} else {
-  run some other code instead
-}
-```
-</pre>
-
-The rendered output looks like this:
-
-```javascript
-if (condition) {
-  code to run if condition is true
-} else {
-  run some other code instead
-}
-```
-
-## Tables
-
-<hr>
-
-You can build tables with markdown to help you organize information. To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column like in the example below.
-
-<pre>
-| Title | Title |
-| ------| ----- |
-| Text  | Text  |
-| Text  | Text  |
-</pre>
-
-| Title | Title |
-| ------| ----- |
-| Text  | Text  |
-| Text  | Text  |
-
-<div class="note">
-  <strong>Note:</strong> 
-  Creating tables with hyphens and pipes can be time-consuming. To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables" >Markdown Tables Generator</a>.
-</div>
-
-## Start using Libris theme
-
-<hr>
-
-We’ve packed this theme with powerful features to help you have awesome documentation for your current or next project.
-
-**Why not start using this theme today?**
-
-<a href="https://www.stackbit.com/" class="button">Join Stackbit</a>
+**Prisma Health (Formerly Palmetto Health Baptist)**  
+Palmetto Baptist Medical Center at Columbia  
+Betsy Neal, MT-BC  
+Taylor at Marion Streets  
+Columbia, SC 29220  
+Phone: (803) 296-5546  
+Fax: (803) 296-5691
