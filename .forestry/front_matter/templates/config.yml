@@ -70,6 +70,19 @@ fields:
         name: include_palette
         label: Palette
         template: palette
+  - name: topbar
+    type: field_group
+    config: {}
+    fields:
+    - name: enable
+      type: boolean
+      label: Enable
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text (html safe)
+    label: Top Bar
 - type: list
   name: disableKinds
   label: Disable Kinds
