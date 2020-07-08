@@ -7,10 +7,10 @@ items:
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.jpg"
   url: https://www.facebook.com/AlisonMTBC/
-- title: Fresh
-  subtitle: A personal theme for Unibit
-  preview_img: images/7.jpg
-  url: https://themes.stackbit.com/demos/fresh/
+- title: Charleston Music Therapy, LLC
+  subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
+  preview_img: "/images/charleston_mt_llc.jpg"
+  url: https://www.facebook.com/charlestonmusictherapy/
 - title: Fjord
   subtitle: A minimal blogging theme for Unibit
   preview_img: images/8.jpg
