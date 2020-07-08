@@ -16,10 +16,10 @@ items:
   subtitle: Shelby Price, MT-BC Columbia, SC
   preview_img: "/images/freeway_mt.png"
   url: https://www.freewaymusictherapy.com/
-- title: Ampersand
-  subtitle: Medium inspired blogging theme
-  preview_img: images/9.jpg
-  url: https://themes.stackbit.com/demos/ampersand/
+- title: Heart Strings Music Therapy Services, LLC
+  subtitle: Megan Danelz, MT-BC, NICU-MT Greenville, SC
+  preview_img: "/images/heart_strings_mts.jpg"
+  url: https://heartstringsmts.com/
 layout: showcase
 menu:
   main:
