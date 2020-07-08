@@ -11,10 +11,10 @@ items:
   subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
   preview_img: "/images/charleston_mt_llc.jpg"
   url: https://www.facebook.com/charlestonmusictherapy/
-- title: Fjord
-  subtitle: A minimal blogging theme for Unibit
-  preview_img: images/8.jpg
-  url: https://themes.stackbit.com/demos/fjord/
+- title: Freeway Music Therapy
+  subtitle: Shelby Price, MT-BC Columbia, SC
+  preview_img: "/images/freeway_mt.png"
+  url: https://www.freewaymusictherapy.com/
 - title: Ampersand
   subtitle: Medium inspired blogging theme
   preview_img: images/9.jpg
