@@ -1,6 +1,7 @@
 ---
-title: Showcase
-subtitle: This is an optional page subtitle
+title: Find a Therapist
+subtitle: Looking to receive music therapy services for your facility or as an individual
+  client? Find a music therapy private practice near you!
 img_path: images/5.jpg
 items:
 - title: 'Carolina Music Therapy '
