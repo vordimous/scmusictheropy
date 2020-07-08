@@ -86,7 +86,7 @@ sections:
   subtitle: This is an optional description for the call to action block.
   actions:
   - label: Get Started
-    url: "/docs/getting-started/installation.html"
+    url: "/showcase/"
 - type: contentblock
   template: contentblock
   title: A Section Without Image
