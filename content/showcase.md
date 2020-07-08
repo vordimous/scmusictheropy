@@ -44,6 +44,10 @@ items:
   subtitle: Robin Parker, MT-BC Lake City, SC
   preview_img: "/images/polyphony_mt.jpg"
   url: https://www.polyphonymusic.com/
+- title: Premier Music Therapy Services
+  subtitle: Janelle Mitchell, MM, MT-BC Columbia, SC
+  preview_img: "/images/premire_mts.jpg"
+  url: https://premiermusictherapy.com/
 layout: showcase
 menu:
   main:
