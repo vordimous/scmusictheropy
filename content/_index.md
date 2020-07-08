@@ -34,13 +34,14 @@ sections:
     actions:
     - label: View Posts
       url: blog/index.html
-  - title: Style Guides
-    content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-      a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
-      ut tellus. Vivamus rhoncus mattis varius.
+  - title: Membership
+    content: |-
+      Are you a board certified music therapist living in South Carolina? Are you a board certified music therapist looking to move to South Carolina? Are you studying music therapy in South Carolina?
+
+      If you answered yes to any of those questions, membership in the Music Therapy Association of South Carolina is for you!
     actions:
-    - label: Learn More
-      url: "/style-guide.html"
+    - label: Join us
+      url: "/overview.html"
   title: ''
   subtitle: ''
 - type: contentblock
