@@ -21,12 +21,12 @@ sections:
   section_id: features
   component: features_block.html
   featureslist:
-  - title: Documentation
-    content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-      a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
-      ut tellus. Vivamus rhoncus mattis varius.
+  - title: About Us
+    content: The Music Therapy Association of South Carolina has its first organizational
+      meeting on (date), at (location). This meeting was organized by music therapists
+      from across South Carolina including founding members (name), (name)....
     actions:
-    - label: Get Started
+    - label: Read More
       url: docs/index.html
   - title: Blog
     content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
