@@ -1,6 +1,9 @@
 ---
-title: Overview
-subtitle: An optional subtitle
+title: Members
+subtitle: Are you a board certified music therapist living in South Carolina? Are
+  you a board certified music therapist looking to move to South Carolina? Are you
+  studying music therapy in South Carolina?  If you answered yes to any of those questions,
+  membership in the Music Therapy Association of South Carolina is for you!
 img_path: images/5.jpg
 sections:
 - type: ctablock
