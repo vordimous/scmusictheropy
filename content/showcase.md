@@ -52,6 +52,10 @@ items:
   subtitle: Veronica Andreassen-Barker, MT-BC Aiken, SC
   preview_img: "/images/resonate_creative.png"
   url: http://resonatecreative.org/
+- title: 'Three-Chord Music Therapy Services, LLC '
+  subtitle: Sarah Barnes, MT-BC Spartanburg, SC
+  preview_img: "/images/three-chords_mts.png"
+  url: https://tcmusictherapy.com/
 layout: showcase
 menu:
   main:
