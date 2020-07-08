@@ -48,6 +48,10 @@ items:
   subtitle: Janelle Mitchell, MM, MT-BC Columbia, SC
   preview_img: "/images/premire_mts.jpg"
   url: https://premiermusictherapy.com/
+- title: Resonate Creative
+  subtitle: Veronica Andreassen-Barker, MT-BC Aiken, SC
+  preview_img: "/images/resonate_creative.png"
+  url: http://resonatecreative.org/
 layout: showcase
 menu:
   main:
