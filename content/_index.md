@@ -3,10 +3,15 @@ title: Home
 sections:
 - type: heroblock
   template: heroblock
-  title: Aaron Listen
+  title: The Music Therapy Association of South Carolina
   section_id: hero
   component: hero_block.html
-  content: JAMstack is the best, you need to see this
+  content: An affiliate organization of the American Music Therapy Association (AMTA).
+    MTASC is composed of board-certified music therapists and music therapy students
+    in South Carolina. We support professional development, community awareness and
+    continuing education in the field of music therapy. Here you will find more information
+    about our organization, as well as information for students and professional therapists.
+    Thank you for visiting the MTASC website.
   image: "/images/cropped-MTASC.Logo2_2-4.jpg"
   actions:
   - label: Find out More
