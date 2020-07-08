@@ -40,6 +40,10 @@ items:
   subtitle: Gretchen Benner, MT-BC Fort Mill, SC
   preview_img: "/images/pmt_mt.jpg"
   url: https://www.piedmontmusictherapy.com/
+- title: Polyphony Music Therapy
+  subtitle: Robin Parker, MT-BC Lake City, SC
+  preview_img: "/images/polyphony_mt.jpg"
+  url: https://www.polyphonymusic.com/
 layout: showcase
 menu:
   main:
