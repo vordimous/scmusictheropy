@@ -28,6 +28,10 @@ items:
   subtitle: Sarah Winkler, MT-BC Rock Hill, SC
   preview_img: "/images/music_abounds_mt.png"
   url: http://www.musicabounds.com/
+- title: Noteworthy Music Therapy
+  subtitle: Jennifer Gossett, MT-BC North Charleston, SC
+  preview_img: "/images/note_worthy_mt.jpg"
+  url: https://www.facebook.com/NoteworthyMusicTherapy
 layout: showcase
 menu:
   main:
