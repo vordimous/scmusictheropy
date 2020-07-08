@@ -32,6 +32,10 @@ items:
   subtitle: Jennifer Gossett, MT-BC North Charleston, SC
   preview_img: "/images/note_worthy_mt.jpg"
   url: https://www.facebook.com/NoteworthyMusicTherapy
+- title: Palmetto Music Therapy Services, LLC
+  subtitle: Kim Embler, MT-BC Mount Pleasant, SC
+  preview_img: "/images/palmetto_mts.jpg"
+  url: https://www.facebook.com/palmettomusictherapyservices/
 layout: showcase
 menu:
   main:
