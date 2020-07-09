@@ -1,8 +1,8 @@
 ---
-content: The Music Therapy Association of South Carolina (MTASC) is an affiliate organization
-  of the American Music Therapy Association (AMTA)
+content: 'The Music Therapy Association of South Carolina (MTASC) is an affiliate
+  organization of '
 links:
-- text: The American Music Therapy Association
+- text: The American Music Therapy Association  (AMTA)
   url: http://musictherapy.org/
   new_window: true
 - new_window: true
