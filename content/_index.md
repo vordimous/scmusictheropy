@@ -46,6 +46,20 @@ sections:
   subtitle: ''
 - type: contentblock
   template: contentblock
+  title: A Section Without Image
+  section_id: text-no-img
+  component: content_block.html
+  content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
+    cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur
+    lobortis.
+  actions:
+  - label: For Students
+    url: ''
+  - label: Get Started
+    url: "/docs/getting-started/installation.html"
+  image: ''
+- type: contentblock
+  template: contentblock
   title: RELATED LINKS
   section_id: text-img
   component: content_block.html
@@ -60,7 +74,7 @@ sections:
     url: http://ser-amta.org/
 - type: featuresblock
   template: featuresblock
-  title: Sample Layouts
+  title: Updates
   section_id: features-two-col
   component: features_block.html
   subtitle: An optional subtitle of the section
@@ -89,18 +103,6 @@ sections:
   actions:
   - label: Get Started
     url: "/showcase/"
-- type: contentblock
-  template: contentblock
-  title: A Section Without Image
-  section_id: text-no-img
-  component: content_block.html
-  content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-    cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur
-    lobortis.
-  actions:
-  - label: Get Started
-    url: "/docs/getting-started/installation.html"
-  image: ''
 layout: home
 menu:
   main:
