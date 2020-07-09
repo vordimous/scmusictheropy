@@ -55,8 +55,8 @@ sections:
   actions:
   - label: For Students
     url: ''
-  - label: Get Started
-    url: "/docs/getting-started/installation.html"
+  - label: For Profesionals
+    url: ''
   image: ''
 - type: contentblock
   template: contentblock
