@@ -58,8 +58,8 @@ sections:
     url: http://musictherapy.org/
   - label: CBMT
     url: http://cbmt.org/
-  - label: Get Started
-    url: "/docs/getting-started/index.html"
+  - label: SER-AMTA
+    url: http://ser-amta.org/
 - type: featuresblock
   template: featuresblock
   title: Sample Layouts
