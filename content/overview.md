@@ -19,7 +19,7 @@ sections:
 layout: overview
 menu:
   main:
-    weight: 1
+    weight: 2
     parent: layouts
 
 ---

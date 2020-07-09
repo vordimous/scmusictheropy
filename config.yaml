@@ -22,14 +22,10 @@ params:
         accent2: "#4a00e0"
 menu:
   main:
-  - identifier: layouts
+  - url: "#"
     name: Sample Layouts
-    url: "#"
-    weight: 5
-  - identifier: github
-    name: GitHub
-    url: https://github.com/
     weight: 6
+    identifier: layouts
 disableKinds:
 - RSS
 - taxonomy
