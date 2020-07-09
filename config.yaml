@@ -20,12 +20,6 @@ params:
       sass:
         accent1: "#8e2de2"
         accent2: "#4a00e0"
-menu:
-  main:
-  - url: "#"
-    name: Sample Layouts
-    weight: 6
-    identifier: layouts
 disableKinds:
 - RSS
 - taxonomy

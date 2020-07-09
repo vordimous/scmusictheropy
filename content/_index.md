@@ -102,8 +102,5 @@ sections:
     - label: Learn More
       url: "/showcase.html"
 layout: home
-menu:
-  main:
-    weight: 1
 
 ---
