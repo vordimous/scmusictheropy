@@ -56,8 +56,8 @@ sections:
   actions:
   - label: AMTA
     url: http://musictherapy.org/
-  - label: View Demo
-    url: "/docs/getting-started/index.html"
+  - label: CBMT
+    url: http://cbmt.org/
   - label: Get Started
     url: "/docs/getting-started/index.html"
 - type: featuresblock
