@@ -52,8 +52,10 @@ sections:
   content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
     cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur
     lobortis.
-  image: images/10.jpg
+  image: "/images/img_2856.jpg"
   actions:
+  - label: AMTA
+    url: http://musictherapy.org/
   - label: View Demo
     url: "/docs/getting-started/index.html"
   - label: Get Started
