@@ -46,12 +46,10 @@ sections:
   subtitle: ''
 - type: contentblock
   template: contentblock
-  title: A Section Without Image
+  title: EDUCATION
   section_id: text-no-img
   component: content_block.html
-  content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-    cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur
-    lobortis.
+  content: ''
   actions:
   - label: For Students
     url: ''
