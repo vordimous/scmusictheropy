@@ -46,10 +46,10 @@ sections:
   subtitle: ''
 - type: contentblock
   template: contentblock
-  title: ''
+  title: RELATED LINKS
   section_id: text-img
   component: content_block.html
-  content: ''
+  content: Please visit the sites below for more information about music therapy.
   image: "/images/img_2856.jpg"
   actions:
   - label: AMTA
