@@ -46,12 +46,10 @@ sections:
   subtitle: ''
 - type: contentblock
   template: contentblock
-  title: A Section With An Image
+  title: ''
   section_id: text-img
   component: content_block.html
-  content: Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-    cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur
-    lobortis.
+  content: ''
   image: "/images/img_2856.jpg"
   actions:
   - label: AMTA
