@@ -22,16 +22,6 @@ params:
         accent2: "#4a00e0"
   topbar:
     enable: false
-menu:
-  main:
-  - identifier: layouts
-    name: Sample Layouts
-    url: "#"
-    weight: 5
-  - identifier: github
-    name: GitHub
-    url: https://github.com/
-    weight: 6
 disableKinds:
 - RSS
 - taxonomy
