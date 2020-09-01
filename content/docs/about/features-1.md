@@ -2,7 +2,7 @@
 excerpt = ""
 layout = "docs"
 title = "Constitution"
-weight = 3
+weight = 2
 
 +++
 _MUSIC THERAPY ASSOCIATION OF SOUTH CAROLINA, INC. CONSTITUTION AND BY-LAWS Spring 2012: 1 minor amendment proposed Fall 2017: 1 section added to Article III of By-Laws_
