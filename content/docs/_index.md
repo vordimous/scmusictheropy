@@ -5,7 +5,7 @@ weight:
 excerpt: ''
 menu:
   main:
-    name: More Info
+    name: About Us
     weight: 1
 
 ---

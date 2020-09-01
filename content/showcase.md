@@ -61,8 +61,5 @@ items:
   preview_img: "/images/farebe_mt.jpg"
   url: https://www.facebook.com/ferebetherapy/
 layout: showcase
-menu:
-  main:
-    weight: 3
 
 ---
