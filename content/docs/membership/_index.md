@@ -3,7 +3,7 @@ title: Become a Member
 excerpt: In this section you'll find basic information about how to become a MTASC
   member.
 layout: docs
-weight: 4
+weight: 
 menu:
   main:
     name: Membership
@@ -30,7 +30,3 @@ There are many benefits to being a member of MTASC:
 View details concerning our spring or fall meeting, as well as, view the “MTASC Constitution and Bylaws” handout below to start the steps to becoming a member. Any questions? Contact sc.music.therapy@gmail.com for further information.
 
 [MTASC Bylaws and Constitution_ 4_2019](http://mtasconline.org/sample-page/)
-
-***
-
-Here are the articles in this section:
