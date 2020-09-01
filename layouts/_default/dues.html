@@ -1,0 +1,48 @@
+{{ define "content" }}
+
+  <article class="post page post-full">
+    <header class="post-header bg-gradient outer">
+      {{ if .Params.img_path }}
+      <div class="bg-img" style="background-image: url('{{ .Params.img_path | relURL }}')"></div>
+      {{ end }}
+      <div class="inner-small">
+        <h1 class="post-title">{{ .Params.title }}</h1>
+        {{ if .Params.subtitle }}
+        <div class="post-subtitle">
+          {{ .Params.subtitle | safeHTML }}
+        </div><!-- .post-subtitle -->
+        {{ end }}
+      </div><!-- .inner-small -->
+    </header><!-- .post-header -->
+    <div class="outer">
+      <div class="inner-medium">
+        <div class="post-content">
+          
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+            <!-- Identify your business so that you can collect the payments. -->
+            <input type="hidden" name="business"
+                value="donations@kcparkfriends.org">
+        
+            <!-- Specify a Donate button. -->
+            <input type="hidden" name="cmd" value="_donations">
+        
+            <!-- Specify details about the contribution -->
+            <input type="hidden" name="item_name" value="Friends of the Park">
+            <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+            <input type="hidden" name="currency_code" value="USD">
+        
+            <!-- Display the payment button. -->
+            <button type="submit" class="btn btn-template-main" alt="Donate"><i class="fas fa-donate"></i> Donate</button>
+            <img alt="" width="1" height="1"
+            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+        
+        </form>
+
+        </div><!-- .post-content -->
+      </div><!-- .inner-medium -->
+    </div><!-- .outer-->
+  </article><!-- .post -->
+
+{{ end }}
+

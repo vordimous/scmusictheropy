@@ -33,10 +33,10 @@ pages:
 - content/docs/about/overview-1.md
 - content/docs/community/_index.md
 - content/docs/faq/_index.md
-- content/docs/getting-started/_index.md
-- content/docs/getting-started/installation.md
-- content/docs/getting-started/quick-start.md
-- content/docs/manage-content/_index.md
+- content/docs/membership/_index.md
+- content/docs/membership/installation.md
+- content/docs/membership/quick-start.md
+- content/docs/helpful-links/_index.md
 - content/docs/tools/_index.md
 - content/docs/tools/plug-ins.md
 - content/docs/tools/starter-theme.md

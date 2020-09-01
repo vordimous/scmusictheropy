@@ -59,6 +59,11 @@ sections:
   label: Contact
   templates:
   - contact
+- type: document
+  path: content/dues.md
+  label: dues
+  templates:
+  - dues
 - type: directory
   path: content
   label: Page
