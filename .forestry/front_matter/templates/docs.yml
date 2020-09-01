@@ -33,12 +33,6 @@ pages:
 - content/docs/about/overview-1.md
 - content/docs/community/_index.md
 - content/docs/faq/_index.md
-- content/docs/membership/_index.md
-- content/docs/membership/installation.md
-- content/docs/membership/quick-start.md
 - content/docs/helpful-links/_index.md
-- content/docs/tools/_index.md
-- content/docs/tools/plug-ins.md
-- content/docs/tools/starter-theme.md
-- content/docs/ui-components/_index.md
-- content/docs/ui-components/typography.md
+- content/docs/membership/_index.md
+- content/docs/membership/quick-start.md
