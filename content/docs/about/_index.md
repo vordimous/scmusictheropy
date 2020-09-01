@@ -3,7 +3,7 @@ title: Music Therapy Association SC
 excerpt: Libris is a Unibit theme created for project documentations. You can use
   it for your project.
 layout: docs
-weight: 1
+weight: 
 menu:
   main:
     name: About Us
