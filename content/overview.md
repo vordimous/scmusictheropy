@@ -20,6 +20,5 @@ layout: overview
 menu:
   main:
     weight: 2
-    parent: layouts
 
 ---

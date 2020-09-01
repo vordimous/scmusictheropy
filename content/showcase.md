@@ -64,6 +64,5 @@ layout: showcase
 menu:
   main:
     weight: 3
-    parent: layouts
 
 ---

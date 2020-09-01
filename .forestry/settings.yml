@@ -54,6 +54,11 @@ sections:
   label: Showcase
   templates:
   - showcase
+- type: document
+  path: content/contact.md
+  label: Contact
+  templates:
+  - contact
 - type: directory
   path: content
   label: Page

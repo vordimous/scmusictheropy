@@ -1,0 +1,28 @@
+/** 
+    forms.less 
+*/
+label {
+    font-weight: normal;
+}
+.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #467fbf;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 127, 191, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 127, 191, 0.6);
+}
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
