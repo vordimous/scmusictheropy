@@ -92,13 +92,11 @@ sections:
     actions:
     - label: Download
       url: "/"
-  - title: Showcase
-    content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-      a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
-      ut tellus. Vivamus rhoncus mattis varius.
+  - title: Our Next Meeting
+    content: Here are some details about the next meeting
     actions:
-    - label: Learn More
-      url: "/showcase.html"
+    - label: Add to calendar
+      url: "/images/testing.ics"
 layout: home
 
 ---
