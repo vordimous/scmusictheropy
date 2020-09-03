@@ -82,18 +82,16 @@ sections:
     url: http://ser-amta.org/
 - type: featuresblock
   template: featuresblock
-  title: Updates
+  title: Importan Updates
   section_id: features-two-col
   component: features_block.html
   subtitle: An optional subtitle of the section
   featureslist:
-  - title: Overview
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl ligula,
-      cursus id molestie vel, maximus aliquet risus. Vivamus in nibh fringilla, fringilla
-      tortor at, pulvinar orci.
+  - title: Task Force News Letter
+    content: Something about what thisis
     actions:
-    - label: Learn More
-      url: "/overview.html"
+    - label: Download
+      url: "/"
   - title: Showcase
     content: Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
       a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at, tincidunt
