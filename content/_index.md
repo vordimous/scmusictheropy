@@ -58,13 +58,13 @@ sections:
   image: ''
 - type: ctablock
   template: ctablock
-  title: Find a Therapist
+  title: Our Board Certified Therapist
   section_id: cta
   component: cta_block.html
   subtitle: Looking to receive music therapy services for your facility or as an individual
     client? Find a music therapy private practice near you!
   actions:
-  - label: Get Started
+  - label: Find a Therapist
     url: "/find-a-therapist/"
 - type: contentblock
   template: contentblock
