@@ -88,7 +88,7 @@ sections:
   subtitle: An optional subtitle of the section
   featureslist:
   - title: Task Force News Letter
-    content: Something about what thisis
+    content: Something about what this is
     actions:
     - label: Download
       url: "/"
