@@ -50,8 +50,8 @@ sections:
   templates:
   - overview
 - type: document
-  path: content/showcase.md
-  label: Showcase
+  path: content/find-a-therapist.md
+  label: tharapists
   templates:
   - showcase
 - type: document

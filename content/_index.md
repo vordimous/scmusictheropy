@@ -65,7 +65,7 @@ sections:
     client? Find a music therapy private practice near you!
   actions:
   - label: Get Started
-    url: "/showcase/"
+    url: "/find-a-therapist/"
 - type: contentblock
   template: contentblock
   title: RELATED LINKS
