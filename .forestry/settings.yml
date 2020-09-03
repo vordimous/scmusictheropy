@@ -51,7 +51,7 @@ sections:
   - overview
 - type: document
   path: content/find-a-therapist.md
-  label: tharapists
+  label: Tharapists
   templates:
   - showcase
 - type: document
@@ -61,7 +61,7 @@ sections:
   - contact
 - type: document
   path: content/dues.md
-  label: dues
+  label: Dues
   templates:
   - dues
 - type: directory

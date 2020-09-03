@@ -58,7 +58,7 @@ sections:
   image: ''
 - type: ctablock
   template: ctablock
-  title: Our Board Certified Therapist
+  title: Our Board Certified Therapists
   section_id: cta
   component: cta_block.html
   subtitle: Looking to receive music therapy services for your facility or as an individual
