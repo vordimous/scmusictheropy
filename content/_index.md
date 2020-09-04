@@ -54,7 +54,7 @@ sections:
   - label: For Students
     url: "/docs/about/education-training/"
   - label: For Profesionals
-    url: ''
+    url: "/docs/about/education-training/"
   image: ''
 - type: ctablock
   template: ctablock
