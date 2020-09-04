@@ -24,4 +24,5 @@ fields:
   config:
     required: true
 pages:
+- content/docs/community/media.md
 - content/style-guide.md
