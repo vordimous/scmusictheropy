@@ -8,3 +8,5 @@ title = "Media"
 ## Update from Task Force
 
 here is some updates and such
+
+### Here are some current events to follow
