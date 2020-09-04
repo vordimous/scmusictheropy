@@ -12,3 +12,7 @@ here is some updates and such
 [download the newsletter](/ "download the newsletter")
 
 ### Here are some current events to follow
+
+[event 1]()
+
+[event 2](/ "event 2")
