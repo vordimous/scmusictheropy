@@ -30,5 +30,3 @@ There are many benefits to being a member of MTASC:
 View details concerning our spring or fall meeting, as well as, view the “MTASC Constitution and Bylaws” handout below to start the steps to becoming a member. Any questions? Contact sc.music.therapy@gmail.com for further information.
 
 [Pay Dues](/dues/)
-
-[MTASC Bylaws and Constitution_ 4_2019](http://mtasconline.org/sample-page/)
