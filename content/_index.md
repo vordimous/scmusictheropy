@@ -90,6 +90,8 @@ sections:
   - title: Task Force News Letter
     content: Something about what this is
     actions:
+    - label: Updates
+      url: "/docs/community/media/"
     - label: Download
       url: "/"
   - title: Our Next Meeting
