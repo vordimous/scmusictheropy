@@ -29,9 +29,11 @@ fields:
 pages:
 - content/docs/_index.md
 - content/docs/about/_index.md
-- content/docs/about/features-1.md
-- content/docs/about/overview-1.md
+- content/docs/about/constitution.md
+- content/docs/about/education-training.md
 - content/docs/community/_index.md
+- content/docs/community/meetings.md
+- content/docs/community/media.md
 - content/docs/faq/_index.md
 - content/docs/helpful-links/_index.md
 - content/docs/membership/_index.md

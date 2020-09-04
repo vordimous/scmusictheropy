@@ -1,7 +1,6 @@
 +++
-draft = true
 img_path = ""
-layout = "page"
+layout = "docs"
 subtitle = "MTASC in the media"
 title = "Media"
 
