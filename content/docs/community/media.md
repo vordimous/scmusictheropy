@@ -9,4 +9,6 @@ title = "Media"
 
 here is some updates and such
 
+[download the newsletter]()
+
 ### Here are some current events to follow
