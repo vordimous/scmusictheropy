@@ -52,7 +52,7 @@ sections:
   content: ''
   actions:
   - label: For Students
-    url: ''
+    url: "/docs/about/education-training/"
   - label: For Profesionals
     url: ''
   image: ''
