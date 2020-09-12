@@ -55,7 +55,7 @@ sections:
     url: "/docs/about/education-training/"
   - label: For Profesionals
     url: "/docs/about/continuing-education/"
-  image: ''
+  image: "/images/farebe_mt.jpg"
 - type: ctablock
   template: ctablock
   title: Our Board Certified Therapists
