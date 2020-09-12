@@ -19,10 +19,6 @@ $palette: (
 );
 
 @import "imports/functions";
-
-@import "fontawesome.min.css";
-@import "brands.min.css";
-
 @import "imports/reset";
 @import "imports/general";
 @import "imports/icons";
@@ -35,3 +31,7 @@ $palette: (
 @import "imports/footer";
 @import "imports/prism";
 @import "imports/custom";
+
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
