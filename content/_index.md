@@ -41,7 +41,7 @@ sections:
       If you answered yes to any of those questions, membership in the Music Therapy Association of South Carolina is for you!
     actions:
     - label: Join us
-      url: "/overview.html"
+      url: "/docs/membership"
   title: ''
   subtitle: ''
 - type: contentblock
