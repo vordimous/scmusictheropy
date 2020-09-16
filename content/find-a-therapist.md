@@ -7,6 +7,7 @@ items:
 - title: Key Changes Therapy Services
   preview_img: "/images/round-key_logowslogan.jpg"
   url: https://keychangesmusictherapy.com/
+  subtitle: Natalie Rousseau, MT-BC
 - title: 'Carolina Music Therapy '
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.jpg"
