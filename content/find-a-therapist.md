@@ -4,6 +4,9 @@ subtitle: Looking to receive music therapy services for your facility or as an i
   client? Find a music therapy private practice near you!
 img_path: "/images/image001.jpg"
 items:
+- title: Key Changes Therapy Services
+  preview_img: "/images/round-key_logowslogan.jpg"
+  url: https://keychangesmusictherapy.com/
 - title: 'Carolina Music Therapy '
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.jpg"
