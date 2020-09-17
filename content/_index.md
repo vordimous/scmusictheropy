@@ -28,11 +28,10 @@ sections:
     actions:
     - label: Read More
       url: docs/index.html
-  - title: Blog
-    content: Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc
-      non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  - title: Updates
+    content: Keep up with what is going on.
     actions:
-    - label: View Posts
+    - label: Follow Us
       url: blog/index.html
   - title: Membership
     content: |-
