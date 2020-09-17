@@ -49,7 +49,9 @@ sections:
   title: EDUCATION
   section_id: text-no-img
   component: content_block.html
-  content: ''
+  content: We support professional development, community awareness and continuing
+    education in the field of music therapy. Here you will find more information about
+    our organization, as well as information for students and professional therapists.
   actions:
   - label: For Students
     url: "/docs/about/education-training/"
