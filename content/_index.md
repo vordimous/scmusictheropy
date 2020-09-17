@@ -55,7 +55,7 @@ sections:
     url: "/docs/about/education-training/"
   - label: For Profesionals
     url: "/docs/about/continuing-education/"
-  image: "/images/farebe_mt.jpg"
+  image: "/images/recognized_in_the_house.jpg"
 - type: ctablock
   template: ctablock
   title: Our Board Certified Therapists
@@ -88,7 +88,9 @@ sections:
   subtitle: An optional subtitle of the section
   featureslist:
   - title: Task Force News Letter
-    content: Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.
+    content: Your task force members wanted to update you on the status of our registry
+      bill, as well as our plan for this session. Here are the newsletters from our
+      last two sessions.
     actions:
     - label: Read More
       url: "/posts/taskforce/"
@@ -96,7 +98,7 @@ sections:
     content: Here are some details about the next meeting
     actions:
     - label: Read More
-      url: "posts/meeting20200926/"
+      url: posts/meeting20200926/
 layout: home
 
 ---
