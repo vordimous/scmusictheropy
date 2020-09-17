@@ -82,21 +82,21 @@ sections:
     url: http://ser-amta.org/
 - type: featuresblock
   template: featuresblock
-  title: Importan Updates
+  title: Important Updates
   section_id: features-two-col
   component: features_block.html
   subtitle: An optional subtitle of the section
   featureslist:
   - title: Task Force News Letter
-    content: Something about what this is
+    content: Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.
     actions:
-    - label: Updates
-      url: "/docs/community/media/"
+    - label: Read More
+      url: "/posts/taskforce/"
   - title: Our Next Meeting
     content: Here are some details about the next meeting
     actions:
-    - label: Add to calendar
-      url: "/images/testing.ics"
+    - label: Read More
+      url: "posts/meeting20200926/"
 layout: home
 
 ---

@@ -22,6 +22,9 @@ params:
         accent2: "#4a00e0"
   topbar:
     enable: false
+  DefaultKeywords:
+    - South Carolina
+    - Music Therapy
 disableKinds:
 - RSS
 - taxonomy
