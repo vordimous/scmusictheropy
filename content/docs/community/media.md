@@ -5,14 +5,11 @@ subtitle = "MTASC in the media"
 title = "Media"
 
 +++
-## Update from Task Force
-
-here is some updates and such
-
-[download the newsletter](/ "download the newsletter")
 
 ### Here are some current events to follow
 
-[event 1]()
+[Music therapist serenades hospice patients - from a distance](https://www.sun-sentinel.com/community/boca-times/fl-cn-boca-raton-music-therapist-20200911-wjwqtc5pkbcati3vhk2fwveiym-story.html)
 
-[event 2](/ "event 2")
+[COVID19 Resources for Music Therapists and Students](https://www.musictherapy.org/about/covid19_resources/)
+
+[Music Therapy in Telehealth](https://www.musictherapy.org/music_therapy_in_telehealth/?pg=3)
