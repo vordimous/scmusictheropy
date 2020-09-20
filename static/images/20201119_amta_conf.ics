@@ -24,17 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20200903T234940Z
-UID:20200903T234940Z-723236490@marudot.com
-DTSTART;TZID=America/New_York:20200903T120000
-DTEND;TZID=America/New_York:20200903T120000
-SUMMARY:test
-DESCRIPTION:a description
-LOCATION:place
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:test
-TRIGGER:-P1D
-END:VALARM
+DTSTAMP:20200920T173057Z
+UID:20200920T173057Z-909133445@marudot.com
+DTSTART;TZID=America/New_York:20201119T190000
+DTEND;TZID=America/New_York:20201122T130000
+SUMMARY:The American Music Therapy Association 2020 Conference
+URL:https%3A%2F%2Fwww.musictherapy.org%2Fevents%2Famta_2020_conference%2F
+DESCRIPTION:\nWith this inaugural virtual conference\, get ready for a unique online experience!\n\nhttps://www.musictherapy.org/events/amta_2020_conference/
+LOCATION:Virtual
 END:VEVENT
 END:VCALENDAR
