@@ -86,7 +86,6 @@ sections:
   title: Important Updates
   section_id: features-two-col
   component: features_block.html
-  subtitle: An optional subtitle of the section
   featureslist:
   - title: Task Force News Letter
     content: Your task force members wanted to update you on the status of our registry
