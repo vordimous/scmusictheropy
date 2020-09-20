@@ -6,59 +6,26 @@ layout: docs
 weight: 
 
 ---
-This is an example of the FAQ page. And a test
 
-<div class="note">
-<strong>Note:</strong>
-This is the demo content for demonstration purpose only. The primary function of this content is to show you what this theme can do. There is a more detailed explanation in the <strong>Getting Started</strong> section.
-</div>
+## What is the music therapy credential?
+MT-BC is the credential required to ethically practice as a music therapist.  Once coursework and clinical training are completed, one is eligible to take the national examination administered by the Certification Board for Music Therapists (CBMT), an independent, non-profit certifying agency fully accredited by the National Commission for Certifying Agencies. After successful completion of the examination, graduates are issued the credential necessary for professional practice, Music Therapist-Board Certified (MT-BC). To maintain this credential, music therapists must demonstrate continued competence by completing 100 recertification credits or retaking and passing the CBMT examination within each five-year recertification cycle.  The MT-BC credential is awarded and administrated by the Certification Board for Music Therapists (CBMT).  More information can be found at www.cbmt.org.
 
 <hr />
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit?
-
-Praesent tristique sem nec lacus laoreet laoreet. Phasellus commodo consectetur viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent mattis rhoncus lacus, vel maximus eros aliquet sit amet. Suspendisse condimentum non elit ac laoreet. Etiam molestie nulla nec ligula ultricies tempor. Nulla facilisi. Cras egestas accumsan nisi. Praesent elementum vehicula turpis sed imperdiet. Curabitur vel justo vitae tellus egestas auctor convallis vel ante. Mauris rhoncus finibus nulla, id rhoncus sapien hendrerit sed. Nullam malesuada mi at erat maximus, in gravida eros aliquet. Proin in enim nec enim tristique lobortis. Nulla finibus consectetur lectus eu porttitor. Vivamus venenatis, mi sit amet laoreet venenatis, augue enim efficitur justo, nec gravida lectus libero vel augue. Integer accumsan nisi lectus, eget imperdiet sem condimentum ut.
-
-<hr />
-
-## Pellentesque id elit mollis, pharetra libero in?
-
-Suspendisse ligula massa, convallis vel turpis at, laoreet venenatis felis. Sed erat tortor, volutpat venenatis efficitur at, mollis ut arcu. Suspendisse potenti. Nulla facilisi. Suspendisse vestibulum quis mi in ullamcorper. Donec rhoncus vitae velit iaculis lobortis. Aliquam eleifend dignissim orci.
+## What attributes does one need to be a music therapist?
+Personal qualifications include an interest in people and a desire to help others empower themselves. Those who are considering music therapy as a career must be accomplished musicians. A music therapist must be versatile and able to adjust to changing circumstances. Music therapists should demonstrate care and concern and be able to offer emotional support for clients and families. Patience, empathy, imagination, tact, openness to new ideas, a sense of humor and creativity are important qualities for professionals in this profession. Music therapists must express themselves well in speech and in writing. In addition, they must be able to work well with other health care providers.
 
 <hr />
 
-## Maecenas placerat fermentum libero?
-
-Curabitur quam neque, pulvinar at sagittis viverra, suscipit sed libero. Sed quis lorem feugiat, tempus metus et, tincidunt orci. Vestibulum eget justo venenatis, mollis lectus a, dictum ante. Sed nec metus mi. Fusce pretium quam vel varius aliquam. Nunc vulputate dictum ipsum, sit amet blandit dui ullamcorper sed. Pellentesque ornare arcu at consectetur pharetra. Suspendisse pellentesque euismod diam. Vivamus cursus eget tortor non ultricies.
-
-<hr />
-
-## Integer massa ante, bibendum sed tellus?
-
-Nunc fringilla, est vel mattis malesuada, mauris velit tincidunt est, quis fringilla mauris felis ut sapien. Sed id sapien ex. Vivamus elementum et lectus pharetra accumsan. Curabitur viverra ante vitae velit euismod, in commodo dolor sollicitudin. Vivamus sit amet rhoncus dui, auctor malesuada ante. Phasellus lobortis fringilla magna at placerat. Maecenas nulla magna, condimentum porta tempor eu, tristique vitae nibh. Curabitur imperdiet eros quis justo luctus dapibus. Vestibulum eu ultrices felis, et lobortis urna. Aenean mollis tempus risus, at iaculis nisi rhoncus at. Phasellus eget massa pulvinar, dignissim velit aliquet, sollicitudin erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+## What instrument does a music therapist need to play?
+Music therapists must also be trained, accomplished musicians.  Common instruments used are guitar, piano, percussion, voice, etc., but a music therapist must be versatile and able to adjust to changing circumstances and many different instruments may be used within a therapeutic context. There is not one single instrument every music therapist needs to play in every session, but rather, music therapy students choose one instrument to be their major instrument of focus during their educational course of study and are given basic training on a variety of instruments.  The choice of instrument or musical intervention used in a music therapy session is dependent upon goals and objectives, the client's preferences, and the music therapist's professional judgement.
 
 <hr />
 
-## Nulla a interdum turpis, vitae tempus risus?
-
-Vestibulum non sem eu dui facilisis maximus sed a diam. Proin et nulla vitae urna malesuada sollicitudin. Fusce vel enim nisi. Pellentesque tincidunt enim nec quam ullamcorper egestas. Aliquam erat volutpat. Cras in neque pulvinar augue suscipit feugiat. Vestibulum semper ipsum eu ligula imperdiet ullamcorper.
-
-Donec vulputate nibh tellus, quis commodo lectus aliquet vestibulum. Morbi lobortis sem ex, in accumsan elit consectetur at. Ut dolor dui, eleifend a condimentum a, venenatis sit amet nunc. Aenean suscipit, metus sed ornare ultrices, neque felis ultrices mi, vitae gravida turpis dolor ut quam. Vivamus pulvinar eros id neque tincidunt elementum. Praesent at tristique nisl. Duis semper placerat risus, ac congue lectus varius nec.
+## What is the most common type of music in music therapy?
+Music therapists utilize music as a therapeutic tool; the genre and type of instrument is tailored to the individual and to the goals that are established between the client and the music therapist. Since music choice/usage is tailored to each client’s needs and preferences, there is really no "most common" type of music or instrument.  All styles of music have the potential to be useful in effecting change in a client’s or a patient's life. The individual's preferences, circumstances and need for treatment, and the goals established will help the trained music therapist determine what music to use.
 
 <hr />
 
-## Integer convallis urna consequat luctus commodo?
-
-Aenean vitae pulvinar est, et egestas nunc. Sed pharetra mollis felis eleifend pulvinar. Suspendisse feugiat metus ex, ac gravida enim accumsan eu. Curabitur placerat leo ut urna laoreet, quis varius arcu euismod. Maecenas et pretium velit. In egestas libero sed ornare luctus. Ut ac finibus odio.
-
-<hr />
-
-## Nam consequat convallis purus, at eleifend tellus scelerisque et?
-
-Cras eu erat et ligula dictum feugiat at eget sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et justo interdum, iaculis sapien sit amet, ornare est. Duis aliquam a elit et euismod. Sed convallis vestibulum sem sit amet interdum. Sed nec lobortis justo. Mauris fringilla porta risus, et volutpat diam congue at. Nullam commodo fringilla felis ut molestie. Nam eu elit risus. Nulla ornare posuere odio, nec tincidunt nulla elementum ac. Ut viverra eros fringilla aliquet porta. Nulla venenatis enim non blandit tincidunt.
-
-<hr />
-
-## Suspendisse blandit lobortis mi?
-
-Cras vel congue augue. Integer sodales massa quis justo consectetur, id varius quam sagittis. Fusce molestie et diam ac faucibus. Morbi ut eleifend nibh. Quisque maximus velit eget leo aliquam mollis. Sed cursus nunc vitae dignissim consectetur. Vivamus eget venenatis leo, et aliquet odio. Nam mollis lectus ante, vel volutpat nulla elementum ac. Cras ut purus leo. Integer lacus ligula, vehicula vitae felis vel, iaculis tincidunt lorem. Etiam vestibulum venenatis neque sit amet semper. Fusce suscipit ante at mi blandit, a semper urna euismod.
+## What is a typical music therapy session like?
+Since music therapists serve a wide variety of persons with many different types of needs there is no such thing as an overall typical session. Sessions are designed and music selected based on the individual client's treatment plan.  However, you can see and hear some examples of how music therapy is used in clinical settings in the video: "Partnerships in Care: Uses of Music Therapy in Medical Settings."  Music therapy can also be used in many other settings.  See under the menu item, About Music Therapy>What is Music Therapy?>Music Therapy with Specific Populations and our press release, "Setting the Record Straight: What Music Therapy Is and Is Not" for more information on the settings and populations with which music therapy can be helpful and how it differs from music for entertainment.
