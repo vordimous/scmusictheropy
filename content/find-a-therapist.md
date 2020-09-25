@@ -3,6 +3,9 @@ title: Find a Therapist
 subtitle: Looking to receive music therapy services for your facility or as an individual
   client? Find a music therapy private practice near you!
 img_path: "/images/image001.jpg"
+menu:
+  main:
+    weight: 1
 items:
 - title: 'Carolina Music Therapy '
   subtitle: Alison Hughey, MT-BC Spartanburg, SC

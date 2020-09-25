@@ -29,3 +29,9 @@ Music therapists utilize music as a therapeutic tool; the genre and type of inst
 
 ## What is a typical music therapy session like?
 Since music therapists serve a wide variety of persons with many different types of needs there is no such thing as an overall typical session. Sessions are designed and music selected based on the individual client's treatment plan.  However, you can see and hear some examples of how music therapy is used in clinical settings in the video: "Partnerships in Care: Uses of Music Therapy in Medical Settings."  Music therapy can also be used in many other settings.  See under the menu item, About Music Therapy>What is Music Therapy?>Music Therapy with Specific Populations and our press release, "Setting the Record Straight: What Music Therapy Is and Is Not" for more information on the settings and populations with which music therapy can be helpful and how it differs from music for entertainment.
+
+<hr />
+
+## Where can I find a music therapist in my area?
+
+[Find A Therapist]({{< ref "/find-a-therapist" >}} "Find A Therapist")

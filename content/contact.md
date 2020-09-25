@@ -5,6 +5,6 @@ img_path: "/images/image001.jpg"
 layout: contact
 menu:
   main:
-    weight: 4
+    weight: 2
 
 ---

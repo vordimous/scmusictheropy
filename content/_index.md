@@ -22,9 +22,7 @@ sections:
   component: features_block.html
   featureslist:
   - title: About Us
-    content: The Music Therapy Association of South Carolina has its first organizational
-      meeting on (date), at (location). This meeting was organized by music therapists
-      from across South Carolina including founding members (name), (name)....
+    content: The Music Therapy Association of South Carolina (MTASC) is an affiliate organization of the American Music Therapy Association (AMTA).
     actions:
     - label: Read More
       url: docs/index.html
@@ -36,8 +34,6 @@ sections:
   - title: Membership
     content: |-
       Are you a board certified music therapist living in South Carolina? Are you a board certified music therapist looking to move to South Carolina? Are you studying music therapy in South Carolina?
-
-      If you answered yes to any of those questions, membership in the Music Therapy Association of South Carolina is for you!
     actions:
     - label: Join us
       url: "/docs/membership"

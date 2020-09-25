@@ -7,7 +7,7 @@ weight:
 menu:
   main:
     name: Membership
-    weight: 2
+    weight: 3
 
 ---
 ![5 MTASC Members](/images/41401637_10156952530914887_4710551054570225664_n.jpg "Happy Members")
