@@ -6,6 +6,18 @@ content_img_path: ''
 excerpt: Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.
 layout: post
 subtitle: ''
+keywords: [
+    "state",
+    "bill",
+    "session",
+    "registry",
+    "legislators",
+    "licensure",
+    "recognition",
+    "protection",
+    "time",
+    "task",
+]
 
 ---
 Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.

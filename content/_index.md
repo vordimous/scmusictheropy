@@ -96,5 +96,25 @@ sections:
     - label: Read More
       url: posts/meeting20200926/
 layout: home
-
+keywords: [
+"music",
+"therapy",
+"template",
+"south",
+"carolina",
+"section",
+"information",
+"association",
+"organization",
+"therapists",
+"music therapy",
+"south carolina",
+"therapy association",
+"board certified",
+"association south",
+"affiliate organization",
+"organization american",
+"american music",
+"association amta",
+]
 ---

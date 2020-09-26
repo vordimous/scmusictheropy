@@ -8,6 +8,15 @@ menu:
   main:
     name: Membership
     weight: 3
+keywords: [
+  "south",
+  "carolina",
+  "member",
+  "mtasc",
+  "board",
+  "certified",
+  "therapist",
+]
 
 ---
 ![5 MTASC Members](/images/41401637_10156952530914887_4710551054570225664_n.jpg "Happy Members")

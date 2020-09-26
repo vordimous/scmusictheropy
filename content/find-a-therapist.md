@@ -7,7 +7,7 @@ menu:
   main:
     weight: 1
 items:
-- title: 'Carolina Music Therapy '
+- title: Carolina Music Therapy
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.jpg"
   url: https://www.facebook.com/AlisonMTBC/
@@ -55,14 +55,30 @@ items:
   subtitle: Veronica Andreassen-Barker, MT-BC Aiken, SC
   preview_img: "/images/resonate_creative.png"
   url: http://resonatecreative.org/
-- title: 'Three-Chord Music Therapy Services, LLC '
+- title: Three-Chord Music Therapy Services, LLC
   subtitle: Sarah Barnes, MT-BC Spartanburg, SC
   preview_img: "/images/three-chords_mts.png"
   url: https://tcmusictherapy.com/
-- title: 'Ferebe Therapy '
+- title: Ferebe Therapy
   subtitle: Ferebe Gasque Pearce, MM, MT-BC Florence, SC
   preview_img: "/images/farebe_mt.jpg"
   url: https://www.facebook.com/ferebetherapy/
 layout: showcase
-
+keywords: [
+ "Find a Therapist",
+ "Carolina Music Therapy",
+ "Charleston Music Therapy, LLC",
+ "Freeway Music Therapy",
+ "Heart Strings Music Therapy Services, LLC",
+ "Key Changes Therapy Services, LLC",
+ "Music Abounds, LLC",
+ "Noteworthy Music Therapy",
+ "Palmetto Music Therapy Services, LLC",
+ "Piedmont Music Therapy, LLC",
+ "Polyphony Music Therapy",
+ "Premier Music Therapy Services",
+ "Resonate Creative",
+ "Three-Chord Music Therapy Services, LLC",
+ "Ferebe Therapy",
+]
 ---

@@ -3,7 +3,18 @@ excerpt = ""
 layout = "docs"
 title = "Education & Training"
 weight = 1
-
+keywords = [
+    "Charleston Southern University",
+    "Converse College",
+    "Palmetto Baptist Medical Center at Columbia",
+    "courses",
+    "field",
+    "students",
+    "clinical",
+    "board",
+    "professional",
+    "training",
+]
 +++
 ![](/images/11138525_10153993765884887_5373058585984600195_n.jpg)
 
@@ -25,15 +36,13 @@ Professional music therapists follow the standards for clinical interventions an
 Charleston Southern was the first school in South Carolina to offer this degree program and has been accredited since the late 1970s. Each semester, music therapy students work with children, adults, and geriatrics with various disabilities, using music to help them achieve therapeutic non-musical goals and to improve quality of life.
 
 Jennifer Whipple, Associate Professor of Music Therapy, Music Therapy Coordinator  
-jwhipple@charlestonsouthern.edu
 
 [Converse College](http://www.converse.edu/)
 
 In 2005, Converse College began to offer their Bachelor of Music Therapy degree. The Department of Music Education and Therapy is dedicated to the music student who wishes to become a classroom music teacher or music therapist. Music Therapy students have the opportunities to work in a variety of settings, both in the community and at the school.
 
 Carol Shultis  
-Associate Professor of Music Therapy  
-carol.shultis@converse.edu
+Associate Professor of Music Therapy
 
 ## Clinical Training Sites
 

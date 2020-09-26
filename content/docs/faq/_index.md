@@ -4,7 +4,15 @@ excerpt: In this section you'll find commonly asked questions regarding the Libr
   theme. If you have questions, don’t hesitate to ask us directly.
 layout: docs
 weight: 
-
+keywords: [
+  "instrument",
+  "credential",
+  "therapist",
+  "cbmt",
+  "instruments",
+  "session",
+  "client",
+]
 ---
 
 ## What is the music therapy credential?
@@ -12,12 +20,7 @@ MT-BC is the credential required to ethically practice as a music therapist.  On
 
 <hr />
 
-## What attributes does one need to be a music therapist?
-Personal qualifications include an interest in people and a desire to help others empower themselves. Those who are considering music therapy as a career must be accomplished musicians. A music therapist must be versatile and able to adjust to changing circumstances. Music therapists should demonstrate care and concern and be able to offer emotional support for clients and families. Patience, empathy, imagination, tact, openness to new ideas, a sense of humor and creativity are important qualities for professionals in this profession. Music therapists must express themselves well in speech and in writing. In addition, they must be able to work well with other health care providers.
-
-<hr />
-
-## What instrument does a music therapist need to play?
+## What instruments are used music therapy?
 Music therapists must also be trained, accomplished musicians.  Common instruments used are guitar, piano, percussion, voice, etc., but a music therapist must be versatile and able to adjust to changing circumstances and many different instruments may be used within a therapeutic context. There is not one single instrument every music therapist needs to play in every session, but rather, music therapy students choose one instrument to be their major instrument of focus during their educational course of study and are given basic training on a variety of instruments.  The choice of instrument or musical intervention used in a music therapy session is dependent upon goals and objectives, the client's preferences, and the music therapist's professional judgement.
 
 <hr />
