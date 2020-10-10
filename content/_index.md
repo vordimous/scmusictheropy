@@ -49,9 +49,9 @@ sections:
     our organization, as well as information for students and professional therapists.
   actions:
   - label: For Students
-    url: "/docs/about/education-training/"
+    url: "/docs/about/education-training"
   - label: For Profesionals
-    url: "/docs/about/continuing-education/"
+    url: "/docs/about/continuing-education"
   image: "/images/recognized_in_the_house.jpg"
 - type: ctablock
   template: ctablock
@@ -62,7 +62,7 @@ sections:
     client? Find a music therapy private practice near you!
   actions:
   - label: Find a Therapist
-    url: "/find-a-therapist/"
+    url: "/find-a-therapist"
 - type: contentblock
   template: contentblock
   title: RELATED LINKS
@@ -89,7 +89,7 @@ sections:
       last two sessions.
     actions:
     - label: Read More
-      url: "/posts/taskforce/"
+      url: "/posts/taskforce"
   - title: Our Next Meeting
     content: Here are some details about the next meeting
     actions:

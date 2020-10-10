@@ -23,7 +23,14 @@ params:
   topbar:
     enable: false
   DefaultKeywords:
+    - SC
+    - MTASC
+    - Music Therapy Association of South Carolina
+    - South
+    - Carolina
     - South Carolina
+    - Music
+    - Therapy
     - Music Therapy
 disableKinds:
 - RSS
