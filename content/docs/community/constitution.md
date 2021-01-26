@@ -37,9 +37,9 @@ The purpose of MTASC shall be the advancement of the purposes and objectives of 
 
 **Section 2.** ​The Board of Directors shall speak on behalf of and represent the membership in matters pertaining to the profession and objectives as stated by this Constitution.
 
-\**Section 3.**​ The Board of Directors shall have the power to transact the general business of MTASC, shall be responsible for the control of its funds, and shall be empowered to appoint assistants to any officer of MTASC and approve committees appointed by the President.
+**Section 3.** ​The Board of Directors shall have the power to transact the general business of MTASC, shall be responsible for the control of its funds, and shall be empowered to appoint assistants to any officer of MTASC and approve committees appointed by the President.
 
-**Section 4.​** Any vacancy existing on the Board of Directors at the time of the fall meeting shall be filled by the election of the voting members present. Any vacancy occurring at another time of year may be filled by Presidential appointment with Board of Directors approval to complete the prescribed term of service.
+**Section 4.** Any vacancy existing on the Board of Directors at the time of the fall meeting shall be filled by the election of the voting members present. Any vacancy occurring at another time of year may be filled by Presidential appointment with Board of Directors approval to complete the prescribed term of service.
 
 ## ARTICLE VI-COMMITTEES
 
@@ -47,7 +47,7 @@ Special committees may be appointed by the President with Board of Directors app
 
 ## ARTICLE VII-MEETINGS
 
-\**Section 1.**​ MTASC shall meet in the fall and spring of each year at a time and place determined by the Board of Directors.
+**Section 1.** ​MTASC shall meet in the fall and spring of each year at a time and place determined by the Board of Directors.
 
 **Section 2.** ​Additional meetings shall be called at the option of the Board of Directors.
 
@@ -77,30 +77,30 @@ _BY-LAWS_
 
 ## ARTICLE II-DUES
 
-_SUGGESTED_: **Section 1.** Annual dues for Active and Associate members shall be twenty-five dollars ($25), First Year Professionals ($15) and for Student/Intern members ten dollars ($10).
+_SUGGESTED_: **Section 1.** ​Annual dues for Active and Associate members shall be twenty-five dollars ($25), First Year Professionals ($15) and for Student/Intern members ten dollars ($10).
 
 **Section 2.** ​The membership year shall be from one fall meeting to the next fall meeting.
 
-\**Section 3.**​ Members failing to pay dues shall forfeit all rights of membership.
+**Section 3.** ​Members failing to pay dues shall forfeit all rights of membership.
 
-\**Section 4.**​ Persons who have forfeited rights of membership because of non-payment of dues shall be able to reinstate themselves with payment of dues.
+**Section 4.** ​Persons who have forfeited rights of membership because of non-payment of dues shall be able to reinstate themselves with payment of dues.
 
 ## ARTICLE III-OFFICERS
 
-\**Section 1.**​ The regular term of all officers shall commence at the adjournment of the fall meeting at which they are elected. All terms of office shall last a period of two years or until the subsequent election.
+**Section 1.** ​The regular term of all officers shall commence at the adjournment of the fall meeting at which they are elected. All terms of office shall last a period of two years or until the subsequent election.
 
 **Section 2.** ​The President shall preside at the meetings of the organization; shall call and preside at meetings of the Board of Directors; and shall be ex officio member of the appointed committees without a right to vote; ​shall be responsible for sending the MTASC Newsletter​; shall notify the editor of the Quodlibet and President of SER-AMTA of newly elected officers and  
 send a periodic summary of MTASC business; has the prerogative to appoint a parliamentarian and other committee chairpersons as needed; and shall perform other duties implied by the title.
 
-\**Section 3.**​ The President-Elect shall assist the President as requested and study the duties of the President and MTASC business in order to be able to take over the responsibilities and duties of the President in case of resignation, disability or absence of the President. If the President should resign during the first year of his/her term, the President-Elect will complete the aforementioned term as President, and will then become the Immediate Past President. If the President should resign during the second year of his/her term, the President-Elect will complete the original President’s term of office, and then hold office for his/her two year term. The President-Elect shall also be responsible for coordinating and planning the program for each MTASC meeting.
+**Section 3.** ​The President-Elect shall assist the President as requested and study the duties of the President and MTASC business in order to be able to take over the responsibilities and duties of the President in case of resignation, disability or absence of the President. If the President should resign during the first year of his/her term, the President-Elect will complete the aforementioned term as President, and will then become the Immediate Past President. If the President should resign during the second year of his/her term, the President-Elect will complete the original President’s term of office, and then hold office for his/her two year term. The President-Elect shall also be responsible for coordinating and planning the program for each MTASC meeting.
 
 **Section 4.** ​The Immediate Past President shall serve as a member of the Board of Directors for one two year term. If need for Constitutional Review arises, the Immediate Past President shall serve as the Chairperson of the Constitutional Review Advisory Committee.
 
 **Section 5.** ​The Secretary shall keep the minutes of all business meetings and all meetings of the Board of Directors; shall send copies to each Board of Directors member within thirty days; and conduct the general correspondence of MTASC as assigned by the President. The Secretary shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect. If both the President and the President-Elect should resign during the first year of the President’s term, the Secretary will complete the aforementioned term as President, and will become the Immediate Past President. If both the President and the President-Elect should resign during the second year of the President’s term, the Secretary will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term.
 
-\**Section 6.**​ The Treasurer shall pay bills as authorized by the Board of Directors; shall keep an itemized account of all receipts and disbursements; shall present a financial report at the request of the President and present a written report at the fall meeting. The Treasurer shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect AND the Secretary. If the President and the President-Elect AND the Secretary should resign during the first year of the President’s term, the Treasurer will complete the aforementioned term as President, and will become the Immediate Past President. If the President and the President-Elect AND the Secretary should resign during the second year of the President’s term, the Treasurer will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term.
+**Section 6.** ​The Treasurer shall pay bills as authorized by the Board of Directors; shall keep an itemized account of all receipts and disbursements; shall present a financial report at the request of the President and present a written report at the fall meeting. The Treasurer shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect AND the Secretary. If the President and the President-Elect AND the Secretary should resign during the first year of the President’s term, the Treasurer will complete the aforementioned term as President, and will become the Immediate Past President. If the President and the President-Elect AND the Secretary should resign during the second year of the President’s term, the Treasurer will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term.
 
-\**Section 7.**​ The Parliamentarian shall assist the presiding officer in deciding matters of procedures according to the Constitution, By-laws, and Robert’s Rules of Order, Newly Revised.
+**Section 7.** ​The Parliamentarian shall assist the presiding officer in deciding matters of procedures according to the Constitution, By-laws, and Robert’s Rules of Order, Newly Revised.
 
 **Section 8.** ​Any and all committees will be led by a chairperson who is appointed by the President (with Board of Directors approval). Committee chairpersons will attend MTASC business meetings and present a report of the committee’s activities to the membership. When a chairperson is unable to attend a business meeting, he/she will designate a member to present the report on the chairperson’s behalf. Committee chairs may serve for an unlimited term if all chair responsibilities are fulfilled. If a chairperson fails to fulfill these duties (including  
 designating a substitute in the case of absences), he/she may be removed from the chair at the discretion of the Board of Directors.
@@ -109,9 +109,9 @@ designating a substitute in the case of absences), he/she may be removed from th
 
 **Section 1.** ​A nominating committee of not less than three (3) members, one of whom shall be designated as chairperson, shall be appointed by the President with the approval of the Board of Directors.
 
-\**Section 2.**​ The nominating committee shall present at least one name for each office at the fall meeting of the election year. Additional nominations may be made from the floor.
+**Section 2.** ​The nominating committee shall present at least one name for each office at the fall meeting of the election year. Additional nominations may be made from the floor.
 
-\**Section 3.**​ The election of officers shall be a ballot of the Active members present. Those nominees receiving a majority of votes cast shall be declared elected.
+**Section 3.** ​The election of officers shall be a ballot of the Active members present. Those nominees receiving a majority of votes cast shall be declared elected.
 
 ## ARTICLE V-RULES OF ORDER
 
