@@ -10,7 +10,7 @@ items:
   url: https://www.facebook.com/AlisonMTBC/
 - title: Charleston Music Therapy, LLC
   subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
-  preview_img: "/images/charleston_mt_llc.jpg"
+  preview_img: "/images/charleston_mt_llc.png"
   url: https://www.facebook.com/charlestonmusictherapy/
 - title: Freeway Music Therapy
   subtitle: Shelby Price, MT-BC Columbia, SC
