@@ -6,6 +6,10 @@ webhook_url: https://api.stackbit.com/project/5e7e06c1276eef0012d9293c/webhook/f
 sections:
 - type: document
   path: content/find-a-therapist.md
+  label: Therapists
+  match: "**/*"
+- type: document
+  path: content/find-a-therapist.md
   label: Tharapists
   templates:
   - showcase
