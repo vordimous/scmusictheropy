@@ -38,7 +38,7 @@ items:
   url: https://www.facebook.com/palmettomusictherapyservices/
 - title: Piedmont Music Therapy, LLC
   subtitle: Gretchen Benner, MT-BC Fort Mill, SC
-  preview_img: "/images/pmt_mt.jpg"
+  preview_img: "/images/pmt_mt.png"
   url: https://www.piedmontmusictherapy.com/
 - title: Polyphony Music Therapy
   subtitle: Robin Parker, MT-BC Lake City, SC
