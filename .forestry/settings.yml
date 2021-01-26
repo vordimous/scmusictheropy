@@ -15,11 +15,6 @@ sections:
   templates:
   - blog
 - type: document
-  path: data/doc_sections.yml
-  label: Documentation Sections
-  templates:
-  - doc_sections
-- type: document
   path: content/dues.md
   label: Dues
   templates:
