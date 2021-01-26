@@ -42,7 +42,7 @@ items:
   url: https://www.piedmontmusictherapy.com/
 - title: Polyphony Music Therapy
   subtitle: Robin Parker, MT-BC Lake City, SC
-  preview_img: "/images/polyphony_mt.jpg"
+  preview_img: "/images/polyphony_mtb.png"
   url: https://www.polyphonymusic.com/
 - title: Premier Music Therapy Services
   subtitle: Janelle Mitchell, MM, MT-BC Columbia, SC
