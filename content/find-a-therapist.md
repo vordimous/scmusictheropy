@@ -54,7 +54,7 @@ items:
   url: https://tcmusictherapy.com/
 - title: Ferebe Therapy
   subtitle: Ferebe Gasque Pearce, MM, MT-BC Florence, SC
-  preview_img: "/images/farebe_mt.jpg"
+  preview_img: "/images/farebe_mt2.png"
   url: https://www.facebook.com/ferebetherapy/
 layout: showcase
 keywords:
