@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
-webhook_url: https://api.stackbit.com/project/5e7e06c1276eef0012d9293c/webhook/forestry
+webhook_url: ''
 sections:
 - type: document
   path: content/find-a-therapist.md
