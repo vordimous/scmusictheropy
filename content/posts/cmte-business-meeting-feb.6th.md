@@ -1,6 +1,6 @@
 +++
 content_img_path = ""
-date = 2021-02-06T16:00:00Z
+date = 2021-01-25T16:00:00Z
 excerpt = "Saturday, September 26th at 9:30am"
 layout = "post"
 subtitle = ""
