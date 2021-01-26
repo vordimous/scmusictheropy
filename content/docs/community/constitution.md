@@ -19,7 +19,7 @@ The purpose of MTASC shall be the advancement of the purposes and objectives of 
 
 **Section 1.** ​MTASC membership shall be composed of three categories: Active, Associate, and Student.
 
-**Section 2​**. Membership privileges, annual dues and regulations shall be specified in the By-laws.
+**Section 2​.** Membership privileges, annual dues and regulations shall be specified in the By-laws.
 
 ## ARTICLE IV-OFFICERS
 
@@ -65,7 +65,7 @@ Special committees may be appointed by the President with Board of Directors app
 
 _MUSIC THERAPY ASSOCIATION OF SOUTH CAROLINA, INC._
 
-_BY-LAWS_
+# _BY-LAWS_
 
 ## ARTICLE I-MEMBERSHIP
 
@@ -98,7 +98,7 @@ send a periodic summary of MTASC business; has the prerogative to appoint a parl
 
 **Section 5.** ​The Secretary shall keep the minutes of all business meetings and all meetings of the Board of Directors; shall send copies to each Board of Directors member within thirty days; and conduct the general correspondence of MTASC as assigned by the President. The Secretary shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect. If both the President and the President-Elect should resign during the first year of the President’s term, the Secretary will complete the aforementioned term as President, and will become the Immediate Past President. If both the President and the President-Elect should resign during the second year of the President’s term, the Secretary will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term.
 
-**Section 6.** ​The Treasurer shall pay bills as authorized by the Board of Directors; shall keep an itemized account of all receipts and disbursements; shall present a financial report at the request of the President and present a written report at the fall meeting. The Treasurer shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect AND the Secretary. If the President and the President-Elect AND the Secretary should resign during the first year of the President’s term, the Treasurer will complete the aforementioned term as President, and will become the Immediate Past President. If the President and the President-Elect AND the Secretary should resign during the second year of the President’s term, the Treasurer will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term.
+**Section 6.** ​The Treasurer shall pay bills as authorized by the Board of Directors; shall keep an itemized account of all receipts and disbursements; shall present a financial report at the request of the President and present a written report at the fall meeting. The Treasurer shall take over the responsibilities and duties of the President in case of resignation, disability or absence of the President AND the President-Elect AND the Secretary. If the President and the President-Elect AND the Secretary should resign during the first year of the President’s term, the Treasurer will complete the aforementioned term as President, and will become the Immediate Past President. If the President and the President-Elect AND the Secretary should resign during the second year of the President’s term, the Treasurer will complete the original President’s term of office, and then additionally hold the President’s office for a full two year term. The immediate past treasurer will serve as the co-signer, in addition to the Treasurer, on the MTASC bank account.
 
 **Section 7.** ​The Parliamentarian shall assist the presiding officer in deciding matters of procedures according to the Constitution, By-laws, and Robert’s Rules of Order, Newly Revised.
 
@@ -117,6 +117,6 @@ designating a substitute in the case of absences), he/she may be removed from th
 
 **Section 1.** ​Robert’s Rules of Order, Newly Revised shall be the authority for all questions of procedure not covered by these laws.
 
-\*********************************************************** Revision of By-Laws to add Constitution/By-Law review responsibility to Immediate Past-President duties. Spring 2012 Jeanne Quam, Chair. Revision of Executive Committee referenced to “Board of Directors”. Fall 2011 Jeanne Quam, Chairperson. Revision of By-Laws to divide Secretary-Treasurer office into separate Officer duties: Treasurer, allowing Treasurer to serve more than one term and Secretary, to fill line for President in the case of multiple simultaneous vacancies in the Board of Directors. Fall 2011 Jeanne Quam, Chairperson.
+_Revision of By-Laws to add Constitution/By-Law review responsibility to Immediate Past-President duties. Spring 2012 Jeanne Quam, Chair. Revision of Executive Committee referenced to “Board of Directors”. Fall 2011 Jeanne Quam, Chairperson. Revision of By-Laws to divide Secretary-Treasurer office into separate Officer duties: Treasurer, allowing Treasurer to serve more than one term and Secretary, to fill line for President in the case of multiple simultaneous vacancies in the Board of Directors. Fall 2011 Jeanne Quam, Chairperson._
 
-Revision of dues-Spring 2019 Revision of dues references from $10 and $6 to $15 and $10 respectively-Spring 2008 Revision of dues references from $5 and $3 to $10 and $6 respectively-Spring 2001 Revision to amend references from SEC-AMTA to Southeastern Region of the American Music Therapy Association (SER-AMTA), September 1999-Steve Quam, Chairperson. Revision September 18, 1998-Steve Quam, Chairperson Revision to amend references from NAMT to American Music Therapy Association (AMTA), April 24, 1998, Jeanne Quam, Chairperson. Constitution and By-Laws Committee, September 22, 1995: Jan Harmon, Chairperson; Donna Green, Steve Quam.
+_Revision of dues-Spring 2019 Revision of dues references from $10 and $6 to $15 and $10 respectively-Spring 2008 Revision of dues references from $5 and $3 to $10 and $6 respectively-Spring 2001 Revision to amend references from SEC-AMTA to Southeastern Region of the American Music Therapy Association (SER-AMTA), September 1999-Steve Quam, Chairperson. Revision September 18, 1998-Steve Quam, Chairperson Revision to amend references from NAMT to American Music Therapy Association (AMTA), April 24, 1998, Jeanne Quam, Chairperson. Constitution and By-Laws Committee, September 22, 1995: Jan Harmon, Chairperson; Donna Green, Steve Quam._
