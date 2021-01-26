@@ -1,6 +1,6 @@
 +++
 content_img_path = ""
-date = 2020-09-16T00:00:00Z
+date = 2001-02-06T16:00:00Z
 draft = true
 excerpt = "Saturday, September 26th at 9:30am"
 layout = "post"
@@ -9,10 +9,10 @@ thumb_img_path = ""
 title = "CMTE/Business Meeting Feb. 6th"
 
 +++
-Virtual Fall CMTE and Business Meeting is on Saturday, September 26th at 9:30am 
+Virtual Spring CMTE and Business Meeting is on Saturday, February 6th at 11:00am
 
-[CMTE Flyer](/images/CMTE_flyer_Sept_2020.pdf)
+[CMTE Flyer](/images/cmte_flyer_feb_2021.pdf)
 
-Saturday, September 26th at 9:30am 
+Saturday, February 6th at 11:00am
 
-[Add to your Calendar](/images/20200926_business.ics)
+[Add to your Calendar](/images/spring-cmte-and-business-meeting.ics)
