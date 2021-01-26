@@ -36,6 +36,3 @@ fields:
   default: post
   config:
     required: true
-pages:
-- content/posts/community.md
-- content/posts/conf.md
