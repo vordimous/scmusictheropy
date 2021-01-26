@@ -12,6 +12,10 @@ items:
   subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
   preview_img: "/images/charleston_mt_llc.png"
   url: https://www.facebook.com/charlestonmusictherapy/
+- title: Ferebe Therapy
+  subtitle: Ferebe Gasque Pearce, MM, MT-BC Florence, SC
+  preview_img: "/images/farebe_mt2.png"
+  url: https://www.facebook.com/ferebetherapy/
 - title: Freeway Music Therapy
   subtitle: Shelby Price, MT-BC Columbia, SC
   preview_img: "/images/old logos/freeway_mt.png"
@@ -52,10 +56,6 @@ items:
   subtitle: Sarah Barnes, MT-BC Spartanburg, SC
   preview_img: "/images/three-chords_mts.png"
   url: https://tcmusictherapy.com/
-- title: Ferebe Therapy
-  subtitle: Ferebe Gasque Pearce, MM, MT-BC Florence, SC
-  preview_img: "/images/farebe_mt2.png"
-  url: https://www.facebook.com/ferebetherapy/
 layout: showcase
 keywords:
 - Find a Therapist
