@@ -18,7 +18,7 @@ items:
   url: https://www.facebook.com/ferebetherapy/
 - title: Freeway Music Therapy
   subtitle: Shelby Price, MT-BC Columbia, SC
-  preview_img: "/images/old logos/freeway_mt.png"
+  preview_img: "/images/freeway_mt.png"
   url: https://www.freewaymusictherapy.com/
 - title: Heart Strings Music Therapy Services, LLC
   subtitle: Megan Danelz, MT-BC, NICU-MT Greenville, SC
@@ -30,7 +30,7 @@ items:
   url: https://keychangesmusictherapy.com/
 - title: Music Abounds, LLC
   subtitle: Sarah Winkler, MT-BC Rock Hill, SC
-  preview_img: "/images/old logos/music_abounds_mt.png"
+  preview_img: "/images/music_abounds_mt.png"
   url: http://www.musicabounds.com/
 - title: Noteworthy Music Therapy
   subtitle: Jennifer Gossett, MT-BC North Charleston, SC
