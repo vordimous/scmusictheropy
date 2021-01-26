@@ -14,7 +14,7 @@ items:
   url: https://www.facebook.com/charlestonmusictherapy/
 - title: Freeway Music Therapy
   subtitle: Shelby Price, MT-BC Columbia, SC
-  preview_img: "/images/freeway_mt.png"
+  preview_img: "/images/old logos/freeway_mt.png"
   url: https://www.freewaymusictherapy.com/
 - title: Heart Strings Music Therapy Services, LLC
   subtitle: Megan Danelz, MT-BC, NICU-MT Greenville, SC
