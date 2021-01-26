@@ -30,7 +30,7 @@ items:
   url: http://www.musicabounds.com/
 - title: Noteworthy Music Therapy
   subtitle: Jennifer Gossett, MT-BC North Charleston, SC
-  preview_img: "/images/note_worthy_mt.jpg"
+  preview_img: "/images/note_worthy_mt.png"
   url: https://www.facebook.com/NoteworthyMusicTherapy
 - title: Palmetto Music Therapy Services, LLC
   subtitle: Kim Embler, MT-BC Mount Pleasant, SC
