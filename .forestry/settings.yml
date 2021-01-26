@@ -9,16 +9,6 @@ sections:
   label: Tharapists
   templates:
   - showcase
-- type: document
-  path: content/blog/_index.md
-  label: Blog
-  templates:
-  - blog
-- type: document
-  path: content/dues.md
-  label: Dues
-  templates:
-  - dues
 - type: directory
   path: content/posts
   label: Post
@@ -64,6 +54,16 @@ sections:
   label: Contact
   templates:
   - contact
+- type: document
+  path: content/dues.md
+  label: Dues
+  templates:
+  - dues
+- type: document
+  path: content/blog/_index.md
+  label: Blog
+  templates:
+  - blog
 - type: document
   path: config.yaml
   label: Global Site Config
