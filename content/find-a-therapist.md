@@ -22,7 +22,7 @@ items:
   url: https://heartstringsmts.com/
 - title: Key Changes Therapy Services, LLC
   subtitle: Natalie Rousseau, MT-BC West Columbia, SC
-  preview_img: "/images/round-key_logowslogan.jpg"
+  preview_img: "/images/round-key_logowslogan.png"
   url: https://keychangesmusictherapy.com/
 - title: Music Abounds, LLC
   subtitle: Sarah Winkler, MT-BC Rock Hill, SC
