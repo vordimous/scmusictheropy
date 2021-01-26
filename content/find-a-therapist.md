@@ -18,7 +18,7 @@ items:
   url: https://www.freewaymusictherapy.com/
 - title: Heart Strings Music Therapy Services, LLC
   subtitle: Megan Danelz, MT-BC, NICU-MT Greenville, SC
-  preview_img: "/images/heart_strings_mts.jpg"
+  preview_img: "/images/heart_strings_mts.png"
   url: https://heartstringsmts.com/
 - title: Key Changes Therapy Services, LLC
   subtitle: Natalie Rousseau, MT-BC West Columbia, SC
