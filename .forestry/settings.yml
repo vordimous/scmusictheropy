@@ -6,10 +6,6 @@ webhook_url: https://api.stackbit.com/project/5e7e06c1276eef0012d9293c/webhook/f
 sections:
 - type: document
   path: content/find-a-therapist.md
-  label: Therapists
-  match: "**/*"
-- type: document
-  path: content/find-a-therapist.md
   label: Tharapists
   templates:
   - showcase
@@ -30,11 +26,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: document
-  path: data/header.yml
-  label: Header
-  templates:
-  - header
 - type: directory
   path: content
   label: Page
@@ -43,6 +34,11 @@ sections:
   exclude: "{posts/**,_index.md,blog/_index.md,overview.md,showcase.md}"
   templates:
   - page
+- type: document
+  path: data/header.yml
+  label: Header
+  templates:
+  - header
 - type: document
   path: data/footer.yml
   label: Footer
@@ -59,11 +55,6 @@ sections:
   templates:
   - home
 - type: document
-  path: config.yaml
-  label: Global Site Config
-  templates:
-  - config
-- type: document
   path: content/overview.md
   label: Overview
   templates:
@@ -73,6 +64,11 @@ sections:
   label: Contact
   templates:
   - contact
+- type: document
+  path: config.yaml
+  label: Global Site Config
+  templates:
+  - config
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
