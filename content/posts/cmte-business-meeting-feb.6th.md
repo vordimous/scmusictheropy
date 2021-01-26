@@ -1,7 +1,6 @@
 +++
 content_img_path = ""
 date = 2001-02-06T16:00:00Z
-draft = true
 excerpt = "Saturday, September 26th at 9:30am"
 layout = "post"
 subtitle = ""
