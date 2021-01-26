@@ -3,13 +3,10 @@ title: Find a Therapist
 subtitle: Looking to receive music therapy services for your facility or as an individual
   client? Find a music therapy private practice near you!
 img_path: "/images/image001.jpg"
-menu:
-  main:
-    weight: 1
 items:
 - title: Carolina Music Therapy
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
-  preview_img: "/images/caroline_music_therapy.jpg"
+  preview_img: "/images/caroline_music_therapy.png"
   url: https://www.facebook.com/AlisonMTBC/
 - title: Charleston Music Therapy, LLC
   subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
@@ -64,21 +61,24 @@ items:
   preview_img: "/images/farebe_mt.jpg"
   url: https://www.facebook.com/ferebetherapy/
 layout: showcase
-keywords: [
- "Find a Therapist",
- "Carolina Music Therapy",
- "Charleston Music Therapy, LLC",
- "Freeway Music Therapy",
- "Heart Strings Music Therapy Services, LLC",
- "Key Changes Therapy Services, LLC",
- "Music Abounds, LLC",
- "Noteworthy Music Therapy",
- "Palmetto Music Therapy Services, LLC",
- "Piedmont Music Therapy, LLC",
- "Polyphony Music Therapy",
- "Premier Music Therapy Services",
- "Resonate Creative",
- "Three-Chord Music Therapy Services, LLC",
- "Ferebe Therapy",
-]
+keywords:
+- Find a Therapist
+- Carolina Music Therapy
+- Charleston Music Therapy, LLC
+- Freeway Music Therapy
+- Heart Strings Music Therapy Services, LLC
+- Key Changes Therapy Services, LLC
+- Music Abounds, LLC
+- Noteworthy Music Therapy
+- Palmetto Music Therapy Services, LLC
+- Piedmont Music Therapy, LLC
+- Polyphony Music Therapy
+- Premier Music Therapy Services
+- Resonate Creative
+- Three-Chord Music Therapy Services, LLC
+- Ferebe Therapy
+menu:
+  main:
+    weight: 1
+
 ---
