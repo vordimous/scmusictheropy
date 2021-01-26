@@ -69,7 +69,7 @@ sections:
   label: Global Site Config
   templates:
   - config
-upload_dir: static/image
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
