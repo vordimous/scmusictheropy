@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 12.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:To Register, click this link: https://forms.gle/hkJ5LwM12E98QExS8\nRegistration after September 24 will not be possible. Carol will need to confirm that you have\npaid your dues or the CMTE fee before you will receive the link to the CMTE.\nShould this CMTE be cancelled, all registered participants will be notified, and any CMTE only\nfees paid will be refunded.\nQuestions? Email carol.shultis@converse.edu or call (864) 596-9621\n\nPiedmont Music Therapy, LLC is a private practice that works with individuals and groups of\ngreater Charlotte in the Carolinas. It also provides a studio for adapted or traditional music\nlessons.\nThe staff of PMT modulated due to the pandemic in 2020 (COVID-19) and diversified safe and\naccessible offerings. This interactive course will highlight the telehealth practices of the team of\ncreative clinicians who also provided music lessons virtually and community engagement\nprograms.\nThis course helps to encourage your use and familiarity with virtual service offerings as creative\n& expressive arts therapists. Experiential learning will be incorporated during this virtual\nworkshop so that attendees receive resources for implementation and further consideration.\nPresenters request that participants access the live training with a functioning camera to help\nfully interact with this training.
+DTEND:20210925T240000Z
+DTSTART:20210925T090000Z
+LOCATION:Zoom
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Tuned into Technology: Music Therapy Private Practice in a Digital World
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000008062306C6261CA01000000000000000
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-ALLOWEXTERNCHECK:TRUE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT1440M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
