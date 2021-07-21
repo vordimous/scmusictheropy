@@ -96,7 +96,7 @@ sections:
     content: Here are some details about the next meeting
     actions:
     - label: Read More
-      url: posts/cmte-business-meeting-sep-26th-copy/
+      url: posts/cmte-business-meeting-sep-25th
   subtitle: ''
 layout: home
 keywords:
