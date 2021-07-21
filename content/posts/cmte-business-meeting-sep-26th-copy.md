@@ -1,18 +1,18 @@
 +++
 content_img_path = ""
-date = 2020-09-16T00:00:00Z
+date = 2021-07-20T04:00:00Z
 draft = true
-excerpt = "Saturday, September 26th at 9:30am"
+excerpt = "Saturday, September 25, 2021 9:00 AM"
 layout = "post"
 subtitle = ""
 thumb_img_path = ""
-title = "CMTE/Business Meeting Sep 26th-(copy)"
+title = "CMTE/Business Meeting Sep 25th"
 
 +++
-Virtual Fall CMTE and Business Meeting is on Saturday, September 26th at 9:30am 
+Tuned into Technology: Music Therapy Private Practice in a Digital World is on Saturday, September 25th at 9:00 AM
 
-[CMTE Flyer](/images/CMTE_flyer_Sept_2020.pdf)
+[CMTE Flyer](/images/cmte_mtasc_sept_21_flyer.pdf)
 
-Saturday, September 26th at 9:30am 
+Saturday, September 25th at 9:00 AM
 
-[Add to your Calendar](/images/20200926_business.ics)
+[Add to your Calendar](/images/cmte_mtasc_sept_21.ics)
