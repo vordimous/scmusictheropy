@@ -1,6 +1,6 @@
 +++
 content_img_path = ""
-date = 2021-01-25T16:00:00Z
+date = 2022-01-01T15:00:00Z
 draft = true
 excerpt = "Saturday, September 26th at 9:30am"
 layout = "post"
@@ -9,12 +9,14 @@ thumb_img_path = ""
 title = "CMTE/Business Meeting Feb. 12th"
 
 +++
-Virtual Spring CMTE and Business Meeting is on Saturday, February 6th at 11:00am
+Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 10:00am
 
-[CMTE Flyer](/images/cmte_flyer_feb_2021.pdf)
+[Flyer](/images/2022-mtasc-cmte-info.pdf "Flyer")
 
-[Register](https://forms.gle/x9KsEDSzv4nUUNR29)
+[Agenda](/images/2022-mtasc-spring-agenda.pdf "Agenda")
 
-Saturday, February 6th at 11:00am
+[Register](https://forms.gle/omXafJH2AAJJipQM9)
+
+Saturday, February 12th at 10:00am
 
 [Add to your Calendar](/images/spring-cmte-and-business-meeting.ics)
