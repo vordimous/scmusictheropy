@@ -18,4 +18,4 @@ Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 10:00a
 
 Saturday, February 12th at 10:00am
 
-[Add to your Calendar](/images/spring-cmte-and-business-meeting.ics)
+[Add to your Calendar](/images/mtasc-spring-meeting2022.ics)
