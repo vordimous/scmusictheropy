@@ -8,7 +8,7 @@ thumb_img_path = ""
 title = "CMTE/Business Meeting Feb. 12th"
 
 +++
-Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 10:00am
+Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 9:00 am
 
 [Flyer](/images/2022-mtasc-cmte-info.pdf "Flyer")
 
@@ -16,6 +16,6 @@ Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 10:00a
 
 [Register](https://forms.gle/omXafJH2AAJJipQM9)
 
-Saturday, February 12th at 10:00am
+Saturday, February 12th at 9:00 am
 
 [Add to your Calendar](/images/mtasc-spring-meeting2022.ics)
