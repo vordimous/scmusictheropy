@@ -83,11 +83,9 @@ $15 for first year professionals, $10 students)
 will be available. The lunch will include a side of salad, and cookies. Beverage choices include water,
 tea, and lemonade.
 
-**Cost for lunch is $10. You must pre-register for lunch by Monday, September 19 as the order**
+**Cost for lunch is $10. You must pre-register for lunch by Monday, September 19 as the order must be placed on Tuesday AM (9/20). Please pay online via scmusictherapy.com/dues**
 
-## must be placed on Tuesday AM (9/20). Please pay online via scmusictherapy.com/dues
-
-### BE SURE TO ORDER YOUR LUNCH WHEN REGISTERING FOR THE MEETING/CMTE
+**BE SURE TO ORDER YOUR LUNCH WHEN REGISTERING FOR THE MEETING/CMTE**
 
 **You can bring your own lunch if you desire.**
 
@@ -113,4 +111,3 @@ Click here to register: https://forms.gle/sowaprshyZu2UD8x
 _Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research Responsibility (CBMT) for
 3 Continuing Music Therapy Education credits. The SER-AMTA #P-024, maintains responsibility for
 program quality and adherence to CBMT polices and criteria._
-
