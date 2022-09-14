@@ -9,15 +9,17 @@ title = "CMTE/Business Meeting September 24th 9am-2:30pm."
 
 +++
 
+_Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
+MTASC business meeting to follow CMTE._
+
 [PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
 
 [Register](https://forms.gle/sowaprshyZu2UD8x "Register")
 
-Paying for lunch: under [Dues and Donation](/dues) click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".
+### Paying for lunch: 
 
+**Use the [Dues and Donation](/dues) page. Click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".**
 
-_Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
-MTASC business meeting to follow CMTE._
 
 If music is our primary means of engaging clients in the therapeutic process, why couldn’t it be our
 primary means of engaging in the research process? Arts-based inquiry (aka arts-based research)
