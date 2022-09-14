@@ -1,7 +1,7 @@
 +++
 content_img_path = ""
 date = 2022-09-01T14:00:00Z
-excerpt = "Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research ( 3 CMTEs) Saturday, September 24, 2022"
+excerpt = "( 3 CMTEs) Saturday, September 24, 2022"
 layout = "post"
 subtitle = "( 3 CMTEs) Saturday, September 24, 2022"
 thumb_img_path = ""
