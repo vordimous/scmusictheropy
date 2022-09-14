@@ -16,6 +16,8 @@ title = "Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Resear
 
 ## Saturday, September 24, 2022
 
+[PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
+
 _Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
 MTASC business meeting to follow CMTE._
 
@@ -111,3 +113,4 @@ Click here to register: https://forms.gle/sowaprshyZu2UD8x
 _Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research Responsibility (CBMT) for
 3 Continuing Music Therapy Education credits. The SER-AMTA #P-024, maintains responsibility for
 program quality and adherence to CBMT polices and criteria._
+
