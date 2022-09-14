@@ -8,13 +8,12 @@ thumb_img_path = ""
 title = "CMTE/Business Meeting September 24th 9am-2:30pm."
 
 +++
-# Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research
-
-## Saturday, September 24, 2022 ( 3 CMTEs)
 
 [PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
 
 [Register](https://forms.gle/sowaprshyZu2UD8x "Register")
+
+Paying for lunch: under [Dues and Donation](/dues) click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".
 
 
 _Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
