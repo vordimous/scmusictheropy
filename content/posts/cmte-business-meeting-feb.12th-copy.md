@@ -8,18 +8,16 @@ thumb_img_path = ""
 title = "CMTE/Business Meeting September 24th 9am-2:30pm."
 
 +++
-
 _Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
 MTASC business meeting to follow CMTE._
 
 [PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
 
-[Register](https://forms.gle/sowaprshyZu2UD8x "Register")
+[Register](https://forms.gle/sowaprshyZu2UD8x6 "Register")
 
-### Paying for lunch: 
+### Paying for lunch:
 
-**Use the [Dues and Donation](/dues) page. Click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".**
-
+**Use the** [**Dues and Donation**](/dues) **page. Click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".**
 
 If music is our primary means of engaging clients in the therapeutic process, why couldn’t it be our
 primary means of engaging in the research process? Arts-based inquiry (aka arts-based research)
@@ -36,11 +34,11 @@ understanding during experiential components of this course.
 **Learner Objectives** :
 
 1. Participants will learn and practice at least two strategies for enhancing therapeutic
-    presence with clients. (III.A.1)
+   presence with clients. (III.A.1)
 2. Participants will be able to articulate at least two ways they musically communicate
-    therapeutic presence with clients. (III.A.5.hh)
+   therapeutic presence with clients. (III.A.5.hh)
 3. Participants will be able to identify at least one way they can apply arts-based inquiry to
-    their clinical practice. (V.A.1)
+   their clinical practice. (V.A.1)
 
 There are no prerequisites to attend this CMTE event. Students are welcome and encouraged to
 come and learn with MT-BCs.
@@ -63,7 +61,6 @@ _Schedule for the day_
 9:30 – 10:20 (50) Arts-based inquiry: defining, experiencing, and incorporating
 10:20 – 10:30 (10) Break
 10:30-11:20 (50) Therapeutic presence: defining, experiencing, enhancing, and teaching
-
 
 ## Art-based Research & Therapeutic Presence 2
 
