@@ -13,7 +13,7 @@ MTASC business meeting to follow CMTE._
 
 [PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
 
-[Register](https://forms.gle/sowaprshyZu2UD8x6 "Register")
+Register: [https://forms.gle/sowaprshyZu2UD8x6](https://forms.gle/sowaprshyZu2UD8x6 "https://forms.gle/sowaprshyZu2UD8x6")
 
 ### Paying for lunch:
 
