@@ -1,111 +1,130 @@
 +++
 content_img_path = ""
-date = 2022-09-01T14:00:00Z
-draft = true
-excerpt = "( 3 CMTEs) Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research"
+date = 2023-02-01T15:00:00Z
+excerpt = "( 5 CMTEs) Music and the Brain!"
 layout = "post"
-subtitle = "( 3 CMTEs) Saturday, September 24, 2022"
+subtitle = "( 5 CMTEs) Saturday, February 25, 2023"
 thumb_img_path = ""
-title = "CMTE/Business Meeting September 24th 9am-2:30pm"
+title = "CMTE/Business Meeting Saturday, February 25"
 
 +++
-_Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
-MTASC business meeting to follow CMTE._
+_Begins promptly at 10:00 AM – plan to arrive no later than 9:30 AM to register and greet your friends. MTASC business meeting to follow CMTE._
 
-[PDF Flyer](/images/cmte-mtasc_sept-2022_flyer-revised.pdf "PDF Flyer")
+[PDF Flyer](/images/cmte-mtasc-flyer-feb-2023.pdf "PDF Flyer")
 
-Register: [https://forms.gle/sowaprshyZu2UD8x6](https://forms.gle/sowaprshyZu2UD8x6 "https://forms.gle/sowaprshyZu2UD8x6")
+Register: [https://forms.gle/RmfgfpWj4HtzVcSx7](https://forms.gle/RmfgfpWj4HtzVcSx7 "https://forms.gle/RmfgfpWj4HtzVcSx7")
 
 ### Paying for lunch:
 
 **Use the** [**Dues and Donation**](/dues) **page. Click the "Donation" select $10 and in the use the donation for section select "Meeting Lunch".**
 
-If music is our primary means of engaging clients in the therapeutic process, why couldn’t it be our
-primary means of engaging in the research process? Arts-based inquiry (aka arts-based research)
-offers music therapists the opportunity to conceptualize, design, and disseminate their research
-using the arts. Music and other art forms can be used to guide research design, to refine
-methodology, as data to be analyzed, as results, and as a means of communicating research findings.
-Examples of these will be shared using a current arts-based study on therapeutic presence. This
-interactive course will offer opportunities to explore therapeutic presence, arts-based inquiry,
-design arts-based inquiries in clinical practice, and do all three with and through music.
+During this workshop, participants will learn about various applications of music therapy interventions in various settings. We will look at music therapy in trauma informed care as well as the use of neurologic music therapy techniques within the community and the medical setting.: Course evaluation will include the CMTE Course Evaluation Form and participant demonstration of understanding appropriate ways of including appropriate  ways  of including neurologic informed approaches in music therapy. Opportunities to demonstrate understanding will be given through discussion and role play.
 
-Course evaluation will include the CMTE Course Evaluation Form and participant demonstration of
-understanding during experiential components of this course.
+**Learner Objectives**:
 
-**Learner Objectives** :
+Upon completion of this CMTE, participants will:
 
-1. Participants will learn and practice at least two strategies for enhancing therapeutic
-   presence with clients. (III.A.1)
-2. Participants will be able to articulate at least two ways they musically communicate
-   therapeutic presence with clients. (III.A.5.hh)
-3. Participants will be able to identify at least one way they can apply arts-based inquiry to
-   their clinical practice. (V.A.1)
+1. Be able to answer basic neuroanatomy and pathology questions related to neurologic disorders that result from trauma. (II.B.4.l.)
+2. Will identify 3 important precautions when working in music therapy with a trauma informed lens. (I.2 & I.3 & II.C.2)
+3. Demonstrate a working knowledge of the Transformational Design Model; a model to assist in treatment selection based on functional goals in case study groups. (II.D.6, II.D.12) 4. be able to name three neurologic music therapy (NMT) techniques to address non-musical goals based on assessment. (II.D.11 & II.D.12)
 
-There are no prerequisites to attend this CMTE event. Students are welcome and encouraged to
-come and learn with MT-BCs.
+There are no prerequisites to attend this CMTE event.  Students are welcome and encouraged to come and learn with MT-BCs.
 
-**MT-BCs - REMEMBER TO BRING YOUR CBMT # WITH YOU**.
+**MT-BCs - REMEMBER TO BRING YOUR CBMT # FOR SIGNING IN AND OUT**. **About the presenters**:
 
-**About the presenter** :
+**Alison Hughey, MT-BC, Director, Carolina Music Therapy** in the upstate of South Carolina. Alison works with a variety of populations in multiple settings, including the music therapy clinic at Converse University.  She has an interest in wellness and drumming and has completed training in NMT (neurologic music therapy).
 
-Liz Eggerding, M.S., MT-BC, is Assistant Professor of Music Therapy at Converse University in
-Spartanburg, SC. Prior to Converse, Liz taught at Mississippi University for Women. She has
-extensive clinical experience with adults and children, specializing in mental health. She serves the
-music therapy community as secretary for the Southeastern region and is a member of the MTASC
-Task Force. Professor Eggerding is currently a doctoral candidate at Lesley University investigating
-therapeutic presence.
+**Jennifer Gossett, MT-BC, Director, NoteWorthy Music Therapy in Charleston, SC**.  Jennifer serves as a clinical supervisor for Charleston Southern University’s music therapy students and provides clinical services in multiple sites in the area.  She completed NMT training and uses specific techniques in her practice and provides clinical services to individuals and groups in schools, clinics and homes throughout the tri-county area, with a particular focus on children and young adults.
 
-**CMTE Schedule:**
+**Tammy Flovin is a Senior Music Therapist and Internship Director at MUSC** within the arts in healing department of MUSC Health, Charleston, SC. Tammy has worked in a variety of settings throughout her career. She is a graduate of Appalachian State University and became a board certified music therapist in 2010. She went worked on an In-patient psychiatric unit as an Activity Therapist, coordinated activities for a memory care unit, and was an activity director at a skilled nursing facility at various locations throughout the Low Country. She has been a neurologic music therapist since 2016 and completed her neurologic music therapy fellowship in 2021. She continues to use her NMT training in her daily practice.
 
-_Schedule for the day_
+**CMTE Schedule:** _Schedule for the day_
 
-9:30 – 10:20 (50) Arts-based inquiry: defining, experiencing, and incorporating
-10:20 – 10:30 (10) Break
-10:30-11:20 (50) Therapeutic presence: defining, experiencing, enhancing, and teaching
+9:30- 10:00        Registration/Networking
 
-## Art-based Research & Therapeutic Presence 2
+10:00–10:50:    Part I: Overview of the nervous system and implication for music therapy tx 10-minute break
 
-11:20-11:30 (10) Break
-11:30-12: 2 0 (50) Exploring therapeutic presence through arts-based inquiry
-Designing arts-based inquiries in clinical practice
-12:20-12:30 (10) Questions and evaluation forms
+11:00 -11:50:    Part II: Neurologic Music Therapy basics and use in community
 
-_12 :3 0 – 2 : 30 Lunch & MTASC Business Meeting_
+settings 10-minute break
 
-**Free to MTASC members, non-members, $25 (payable at registration, see link below)**
-Should this CMTE be cancelled, all registered participants will be notified and any fees paid will be
-refunded. (MTASC membership can be paid on-site. Reminder - annual dues $25 for professionals
-$15 for first year professionals, $10 students)
+12:00-12:50:     Part III: Neurologic Music Therapy in more complex medical
 
-**Lunch: Will be catered by Roly Poly.** Assorted lunch wrap trays including a vegetarian option
-will be available. The lunch will include a side of salad, and cookies. Beverage choices include water,
-tea, and lemonade.
+settings 12:50 – 2:15:     Lunch and Business Meeting
 
-**Cost for lunch is $10. You must pre-register for lunch by Monday, September 19 as the order must be placed on Tuesday AM (9/20). Please pay online via scmusictherapy.com/dues**
+2:20-3:00:    Part IV: Small group case study work (prepare non-musical goals, choose techniques and practice with small group for sharing)
 
-**BE SURE TO ORDER YOUR LUNCH WHEN REGISTERING FOR THE MEETING/CMTE**
+3:00-3:30:           Part V:  Small groups demonstrate techniques to larger group
 
-**You can bring your own lunch if you desire.**
+3:30 – 4:00:       Part V: Guided discussion and wrap up
 
-**Finding the CMTE** : Prisma Health Baptist Hospital, Columbia, SC. Please ask for driving directions
-when registering if needed and it will be sent to your email. Alternately, you may navigate
-directions using the address for the parking garage:1333 Taylor Street.
-You should park in the hospital garage located at 1333 Taylor Street. From the Garage, enter the
-hospital from the 3rd floor of the garage. Before crossing the elevated walkway, you will receive a
-mask that must be worn at all times while in the hospital. We will have Prisma MT interns placed
-near the entrance (on the 3rd floor of the garage) to direct members to the meeting room (elevator
-B- 5th floor).
+4:00     Course Evaluation
 
-**Registration: Email intention to attend and lunch plans** (see above for lunch information) to
-Carol.shultis@converse.edu by **September 19**. Registration after Monday, 9/19 is possible but you
-will need to bring your lunch. This presentation will be recorded via Zoom and available to **Pre-
-registered** participants until October 30, 2022.
+**Free to MTASC members, non-members, $25 (pay with link in Google Registration form)** Should this CMTE be canceled, all registered participants will be notified, and any fees paid will be refunded.  Reminder - annual dues (usually paid in fall) $25 for professionals, $15 for first year professionals, $10 for students).
 
-Questions? Contact Carol by email. Questions? Call (864) 596- 9621. Registration after the above
-date or on site is possible but lunch may not be available.
+**Lunch:** Available for $10.00. RESERVATION FOR LUNCH must be received by 12 noon on  Wednesday, February 22. – See instructions on the Google registration form. Lunch will be catered by Juceria Smoothie Bar & Café, Charleston, SC. (See bottom of flyer for details about options for lunch and how to order.
 
-Click here to register: https://forms.gle/sowaprshyZu2UD8x
+**You are welcome to bring your own lunch if you desire.**
 
-_Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research Responsibility (CBMT) for
-3 Continuing Music Therapy Education credits. The SER-AMTA #P-024, maintains responsibility for
-program quality and adherence to CBMT polices and criteria._
+**Finding the CMTE**: The MUSC team is excited to host the spring MTASC meeting at MUSC. We will meet in conference room 7010 in our Children’s Hospital.
+
+Plan to park in the McClennan Banks garage - located behind the hospital. There is a walkover on the second floor of the garage.  Signs from the walkover will direct people to the 7th floor. If you come in through the main entrance ground level of the hospital, check in with security and take the elevator to the 7th floor. From the elevator, exit to the right, take a second right, and go straight down that hallway to the double doors ahead of you. There will be signs to guide your way. MUSC Shawn Jenkins Children’s Hospital
+
+10 McClennan Banks Dr.
+
+Charleston, SC 29425
+
+MUSC Health McClennan Banks Parking Garage 21 McClennan Banks Dr.
+
+Charleston SC 29401
+
+**Registration:** https://forms.gle/RmfgfpWj4HtzVcSx7
+
+Complete the Google form linked above for Registration by 12 noon on **Wednesday**, **February 22, 2023 if you want to order lunch.** Registration after the above date or on site is possible but lunch will not be available.
+
+Questions? Contact to Carol.shultis@converse.edu. Questions? Call (864) 596-9621.
+
+If you are a member of MTASC and are unable to attend on February 25, 2023, a recorded version of this CMTE will be available after the session.  You must PREREGISTER by the deadline (Feb 23) in order to receive the recording.
+
+_Music & the Brain is approved by the Certification Board for Music Therapists (CBMT) for 5 Continuing Music Therapy Education credits. The SER-AMTA #P-024, maintains responsibility for program quality and adherence to CBMT policies and criteria._
+
+LUNCH DETAILS:
+
+Juceria Smoothie Bar & Café will deliver lunches to our conference room Be sure to specify which option you wish to order on the Google form.  All lunches cost $10 ----------BOX LUNCH {SANDWICH} OPTIONS---------
+
+Mama’s Pesto Chicken
+
+A tribute to my Angel Mama! Freshly Baked Ciabatta, Organic, Grilled Chicken, Shredded Mozzarella, Fresh Spinach, Sliced Tomato, Red Onion, House-Made Basil Pesto Mayonnaise, Topped with Shaved parmesan.
+
+Join the Club
+
+Freshly Baked Ciabatta, Roasted Turkey, Hickory Smoked Ham, Crispy Applewood Bacon, Shredded Cheddar & Mozzarella Cheeses, Artisan Greens, Freshly Sliced Tomato, Finished with a Drizzle of Chipotle Mayonnaise! \[Can Not Be Made into Vegan/Vegetarian Option\]
+
+\----------BOX LUNCH {WRAP} OPTIONS---------
+
+Mighty Veggie Wrap
+
+Freshly Shredded Mozzarella & Cheddar Cheese, Green/Yellow/Red Bell Pepper, Red Onion,
+
+Sautéed Portabella Mushrooms, Fresh Spinach, Chopped Kale, Freshly Sliced Tomato &
+
+Finished with
+
+Ranch Drizzle Wrapped and Toasted in a Flour Tortilla.
+
+CRANBERRY CHICKEN APPLE Wrap
+
+Our Famous Award-Winning House-Made Chicken Salad, Fresh Spinach, Cranberry spread Wrapped in a Flour Tortilla. \[Not Toasted\]
+
+All ‘Box Lunches’ come with a Dill Pickle, Kettle Cooked Chips & Freshly Baked Cookie!
+
+Assorted Chips include:
+
+* Sea Salt
+* Sea Salt & Vinegar
+* Hickory BBQ
+* Jalapeño Cheddar
+
+FRESH FRUIT CUPS {SUBSTITUTION AVAILABLE} * UPCHARGE OPTION ONLY *
+
+GLUTEN FREE BREADS & WRAPS, VEGAN PROTEINS & CHEESES, VEGETARIAN OPTIONS, SUBSTITUTES AVAILABLE for an additional charge of $2.
