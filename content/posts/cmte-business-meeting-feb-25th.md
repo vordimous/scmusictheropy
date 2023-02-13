@@ -1,7 +1,7 @@
 +++
 content_img_path = ""
 date = 2023-01-01T15:00:00Z
-excerpt = "( 5 CMTEs) Music and the Brain!"
+excerpt = "( 5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
 layout = "post"
 subtitle = "( 5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
 thumb_img_path = ""
