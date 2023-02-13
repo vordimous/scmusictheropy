@@ -7,7 +7,7 @@ items:
 - title: Carolina Music Therapy
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.png"
-  url: https://www.facebook.com/AlisonMTBC/
+  url: https://www.carolinamusictherapy.com/
 - title: Charleston Music Therapy, LLC
   subtitle: 'Jessica Zieche, MT-BC Charleston, SC '
   preview_img: "/images/charleston_mt_llc.png"
