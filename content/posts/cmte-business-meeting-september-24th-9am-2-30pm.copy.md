@@ -6,7 +6,7 @@ excerpt = "( 3 CMTEs) Arts-based Inquiry and Therapeutic Presence: Enhancing Cli
 layout = "post"
 subtitle = "( 3 CMTEs) Saturday, September 24, 2022"
 thumb_img_path = ""
-title = "CMTE/Business Meeting September 24th 9am-2:30pm.-(copy)"
+title = "CMTE/Business Meeting September 24th 9am-2:30pm"
 
 +++
 _Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
