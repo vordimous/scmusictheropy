@@ -5,7 +5,7 @@ excerpt = "( 5 CMTEs) Music and the Brain!"
 layout = "post"
 subtitle = "( 5 CMTEs) Saturday, February 25, 2023"
 thumb_img_path = ""
-title = "CMTE/Business Meeting Saturday, February 25"
+title = "CMTE/Business Meeting February 25"
 
 +++
 _Begins promptly at 10:00 AM – plan to arrive no later than 9:30 AM to register and greet your friends. MTASC business meeting to follow CMTE._
