@@ -39,7 +39,7 @@ items:
 - title: Palmetto Music Therapy Services, LLC
   subtitle: Kim Embler, MT-BC Mount Pleasant, SC
   preview_img: "/images/palmetto_mts.png"
-  url: https://www.facebook.com/palmettomusictherapyservices/
+  url: https://www.palmettomusictherapyservices.com/
 - title: Piedmont Music Therapy, LLC
   subtitle: Gretchen Benner, MT-BC Fort Mill, SC
   preview_img: "/images/pmt_mt.png"
