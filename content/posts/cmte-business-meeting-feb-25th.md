@@ -5,7 +5,7 @@ excerpt = "( 5 CMTEs) Music and the Brain!"
 layout = "post"
 subtitle = "( 5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
 thumb_img_path = ""
-title = "CMTE/Business Meeting Feb 25th"
+title = "CMTE/Business Meeting Feb 25th Music and the Brain!"
 
 +++
 # Music and the Brain!
