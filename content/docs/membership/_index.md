@@ -4,19 +4,18 @@ excerpt: In this section you'll find basic information about how to become a MTA
   member.
 layout: docs
 weight: 
+keywords:
+- south
+- carolina
+- member
+- mtasc
+- board
+- certified
+- therapist
 menu:
   main:
     name: Membership
     weight: 3
-keywords: [
-  "south",
-  "carolina",
-  "member",
-  "mtasc",
-  "board",
-  "certified",
-  "therapist",
-]
 
 ---
 ![5 MTASC Members](/images/41401637_10156952530914887_4710551054570225664_n.jpg "Happy Members")
@@ -36,6 +35,8 @@ There are many benefits to being a member of MTASC:
 
 **_How to Become a Member_**
 
-View details concerning our spring or fall meeting, as well as, view the “MTASC Constitution and Bylaws” handout below to start the steps to becoming a member. Any questions? Contact sc.music.therapy@gmail.com for further information.
+View details concerning our spring or fall [meetings ](/blog/)and the [MTASC Constitution and Bylaws](/docs/community/constitution/) to start the steps to becoming a member. And [pay your dues](/dues/) online anytime.
 
-[Pay Dues](/dues/)
+[Contact us](/contact/) for any further questions.
+
+[Meetings](/blog/) | [Constitution and Bylaws](/docs/community/constitution/) | [Pay Dues](/dues/)
