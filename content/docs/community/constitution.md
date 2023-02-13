@@ -1,7 +1,7 @@
 +++
 excerpt = ""
 layout = "docs"
-title = "Constitution"
+title = "Constitution and Bylaws"
 weight = 2
 
 +++
