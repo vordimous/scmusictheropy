@@ -96,7 +96,6 @@ fields:
     - home
     - section
     - taxonomy
-    - taxonomyTerm
     - RSS
     - sitemap
     - robotsTXT

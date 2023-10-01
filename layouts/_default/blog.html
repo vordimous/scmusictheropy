@@ -24,9 +24,9 @@
           </a>
           {{ end }}
           <header class="post-header">
-            <div class="post-meta">
+            {{/*  <div class="post-meta">
               <time class="published" datetime="{{ $post.Date | dateFormat "2006-01-02 15:04" }}">{{ $post.Date | dateFormat "January 02, 2006" }}</time>
-            </div>
+            </div>  */}}
             <h2 class="post-title line-left"><a href="{{ $post.Page.Permalink }}" rel="bookmark">{{ $post.Params.title }}</a></h2>
           </header><!-- .post-header -->
           {{ if $post.Params.excerpt }}
