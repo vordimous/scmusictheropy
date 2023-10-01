@@ -9,7 +9,7 @@
         {{ $root_page_path := print $site.Data.doc_sections.root_folder "_index.md" }}
         {{ $root_page := .Site.GetPage "page" $root_page_path }}
         <li class="toc-item{{ if eq $page.File.Path $root_page.File.Path }} current{{ end }}">
-          <a href="{{ $root_page.URL }}">{{ $root_page.Title }}</a>
+          <a href="{{ $root_page.Permalink }}">{{ $root_page.Title }}</a>
         </li>
 
         {{ range $section := $site.Data.doc_sections.sections }}
@@ -20,9 +20,9 @@
           {{ $child_count := $child_pages | len }}
           {{ $has_children := cond (gt $child_count 0) true false }}
           {{ $is_current_page := cond (eq $page.File.Path $section_page.File.Path) true false }}
-          {{ $is_active := cond (or (eq ($page.Dir | replaceRE "/$" "") ($section_page.Dir | replaceRE "/$" "")) (eq $page.File.Path $section_page.File.Path)) true false }}
+          {{ $is_active := cond (or (eq ($page.File.Dir | replaceRE "/$" "") ($section_page.File.Dir | replaceRE "/$" "")) (eq $page.File.Path $section_page.File.Path)) true false }}
           <li class="toc-item{{ if $has_children }} has-children{{ end }}{{ if $is_current_page }} current{{ end }}{{ if $is_active }} active{{ end }}">
-            <a href="{{ $section_page.URL }}">{{ $section_page.Title }}</a>
+            <a href="{{ $section_page.Permalink }}">{{ $section_page.Title }}</a>
             {{ if $has_children }}
               <button class="submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button>
               {{ $include_dict := dict "child_pages" $child_pages "page" $page "Site" $site }}

@@ -1,7 +1,7 @@
 <ul class="{{ .menu_class }}">
   {{ range $item := .menu }}
-  <li class="menu-item{{ if gt ($item.Children | len) 0 }} has-children{{ end }}{{ if eq $.page.URL $item.URL }} current{{ end }}">
-    <a href="{{ if strings.HasPrefix $item.URL "#" }}{{ $item.URL }}{{ else }}{{ $item.URL | relURL }}{{ end }}">{{ $item.Name }}</a>
+  <li class="menu-item{{ if gt ($item.Children | len) 0 }} has-children{{ end }}{{ if eq $.page.Page.Permalink $item.Page.Permalink }} current{{ end }}">
+    <a href="{{ if strings.HasPrefix $item.Page.Permalink "#" }}{{ $item.Page.Permalink }}{{ else }}{{ $item.Page.Permalink | relURL }}{{ end }}">{{ $item.Name }}</a>
     {{ if gt ($item.Children | len) 0 }}
       {{ $menu := $item.Children }}
       {{ $page := $.page }}
