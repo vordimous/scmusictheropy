@@ -4,6 +4,10 @@ subtitle: Looking to receive music therapy services for your facility or as an i
   client? Find a music therapy private practice near you!
 img_path: "/images/image001.jpg"
 items:
+- title: Capital City Therapy Group
+  subtitle: Laura Theismann, MT-BC Columbia, SC
+  preview_img: "/images/capital_city.png"
+  url: https://www.capitalcitytherapy.com/
 - title: Carolina Music Therapy
   subtitle: Alison Hughey, MT-BC Spartanburg, SC
   preview_img: "/images/caroline_music_therapy.png"
@@ -16,18 +20,10 @@ items:
   subtitle: Ferebe Gasque Pearce, MM, MT-BC Florence, SC
   preview_img: "/images/farebe_mt2.png"
   url: https://www.facebook.com/ferebetherapy/
-- title: Freeway Music Therapy
-  subtitle: Shelby Price, MT-BC Columbia, SC
-  preview_img: "/images/freeway_mt.png"
-  url: https://www.freewaymusictherapy.com/
 - title: Heart Strings Music Therapy Services, LLC
   subtitle: Megan Danelz, MT-BC, NICU-MT Greenville, SC
   preview_img: "/images/heart_strings_mts.png"
   url: https://heartstringsmts.com/
-- title: Key Changes Therapy Services, LLC
-  subtitle: Natalie Rousseau, MT-BC West Columbia, SC
-  preview_img: "/images/round-key_logowslogan.png"
-  url: https://keychangesmusictherapy.com/
 - title: Music Abounds, LLC
   subtitle: Sarah Winkler, MT-BC Rock Hill, SC
   preview_img: "/images/music_abounds_mt.png"
@@ -59,11 +55,10 @@ items:
 layout: showcase
 keywords:
 - Find a Therapist
+- Capital City Therapy Group
 - Carolina Music Therapy
 - Charleston Music Therapy, LLC
-- Freeway Music Therapy
 - Heart Strings Music Therapy Services, LLC
-- Key Changes Therapy Services, LLC
 - Music Abounds, LLC
 - Noteworthy Music Therapy
 - Palmetto Music Therapy Services, LLC
