@@ -1,56 +1,14 @@
-# Libris
-
-A documentation theme for Stackbit. [Live Demo](https://themes.stackbit.com/demos/libris/blue)
-
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-libris)
-
-### Turn themes into CMS-powered websites
-
-[Stackbit](https://www.stackbit.com/) provisions your theme's content model with a growing selection of headless CMS and pulls the content for you in the format your static site generator expects it. This is powered by a single config file, [stackbit.yaml](https://docs.stackbit.com/uniform/stackbit-yaml/), which defines a [Uniform theme model](https://docs.stackbit.com/uniform/) and enables integration with CMS like Contentful, DatoCMS, Forestry, NetlifyCMS, etc.
-
-### One theme codebase converts to multiple Static Site Generators
-
-This theme in particular is written in [Unibit](https://docs.stackbit.com/unibit/), a superset of static site generators. Unibit's powerful transpiling engine enables you to write once and stay SSG agnostic. Themes will automatically work with new generators as they are added and can currently convert to Jekyll, Hugo & Gatsby.
-
-## Quickstart
-
-### Unibit CLI
-
-Develop locally using the Unibit CLI. 
-
-```
-npm install -g @stackbit/unibit
-```
-
-Start the local development server. 
-
-```
-unibit develop
-```
-
-Compile a production build into the `public` folder.
-
-```
-unibit build
-```
-
-### CodeSandbox
-
-Develop this theme in the browser using CodeSandbox.
-
-[Fork in CodeSandbox](https://codesandbox.io/s/github/stackbithq/stackbit-theme-libris)
-
 # Theme Documentation
 
-### Editing & adding docs pages
+## Editing & adding docs pages
 
 All documentation pages must be located inside the `content/docs` folder. You can create folders inside this folder 1 level deep. For example:
 
 - Documentation root page: `docs/index.md`
 - Parent section pages: `docs/<section_name>/index.md`
-- Child section pages: `docs/<section_name>/<page_name>.md` 
+- Child section pages: `docs/<section_name>/<page_name>.md`
 
-Documentation pages should contain the following front matter. `title` and `template` are required. 
+Documentation pages should contain the following front matter. `title` and `template` are required.
 
 ```
 ---
@@ -61,18 +19,18 @@ Documentation pages should contain the following front matter. `title` and `temp
 - `template`: docs
 - `excerpt`: Can be defined on a parent section pages to render the description
   of the section in the Overview page (`overview.html`). This field is ignored
-  for child section pages. 
+  for child section pages.
 ---
 ```
 
 All page inside the `content/docs` folder should use the `docs` layout (`templates/docs.html`).
 This layout is responsible for rendering the documentation navigation menu and
-uses several properties to control its appearance: 
+uses several properties to control its appearance:
 
 ### Docs menu
 
 For sections to appear in the docs sidebar menu they must be defined in `doc_sections.yml` located
-inside the `data` folder. The order of section in this list will define the appearance order in navigation menu.  
+inside the `data` folder. The order of section in this list will define the appearance order in navigation menu.
 
 `doc_sections.yml`:
 
@@ -87,7 +45,7 @@ sections:
   - faq
   - community
 ```
- 
+
 ### Example
 
 Here is an example to a folder structure, several documentation pages and
@@ -122,7 +80,7 @@ documentation sections:
     weight: 1           # position guides/overview first
     template: docs
     ---
-   
+
 `content/docs/guides/features.md`:
 
     ---
@@ -143,22 +101,21 @@ sections:
 
 ![Navigation Example](docs/libris-navigation-example.png "Navigation Example")
 
-
 ### Callouts
 
 To add a callout to your documentation, simply use the following html markup:
 
 ```
 <div class="important">
-  <strong>Important:</strong> 
+  <strong>Important:</strong>
   This is the "Important" callout block of text. It indicates a warning or caution.
-  Use it for an important message. 
+  Use it for an important message.
 </div>
 ```
 
 ```
 <div class="note">
-  <strong>Note:</strong> 
+  <strong>Note:</strong>
   This is the "Note" callout block of text. It signifies a general note.
 </div>
 ```

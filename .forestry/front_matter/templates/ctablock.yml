@@ -34,7 +34,7 @@ fields:
 - type: text
   name: type
   label: Reference Type Name
-  description: Name of the Stackbit object model, used by fields of type reference
+  description: Name of the object model, used by fields of type reference
   hidden: true
   default: ctablock
   config:
