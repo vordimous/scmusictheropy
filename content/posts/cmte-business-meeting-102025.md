@@ -1,6 +1,6 @@
 +++
 content_img_path = ""
-date = 2025-10-01T15:00:00Z
+date = 2025-09-02T15:00:00Z
 excerpt = "(5 CMTE credits) Saturday, October 4, 2025 @ Converse University, Spartanburg, SC"
 layout = "post"
 subtitle = "(3 CMTE credits) Saturday, September 6, 2025 @ Converse University, Spartanburg, SC"
