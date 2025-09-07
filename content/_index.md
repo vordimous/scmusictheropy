@@ -7,8 +7,7 @@ sections:
   section_id: hero
   component: hero_block.html
   content: An affiliate organization of the American Music Therapy Association (AMTA).
-    MTASC is composed of board-certified music therapists and music therapy students
-    in South Carolina. We support professional development, community awareness and
+    MTASC is composed of board-certified music therapists music therapy students, retired music therapists, and others supporting in the field in South Carolina. We support professional development, community awareness and
     continuing education in the field of music therapy. Here you will find more information
     about our organization, as well as information for students and professional therapists.
     Thank you for visiting the MTASC website.
@@ -33,7 +32,7 @@ sections:
     - label: Follow Us
       url: blog/index.html
   - title: Membership
-    content: Are you a board certified music therapist living in South Carolina? Are
+    content: Are you a board certified music therapist living in (or looking to move to) South Carolina? Are
       you a board certified music therapist looking to move to South Carolina? Are
       you studying music therapy in South Carolina?
     actions:
