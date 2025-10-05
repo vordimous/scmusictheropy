@@ -32,9 +32,7 @@ sections:
     - label: Follow Us
       url: blog/index.html
   - title: Membership
-    content: Are you a board certified music therapist living in (or looking to move to) South Carolina? Are
-      you a board certified music therapist looking to move to South Carolina? Are
-      you studying music therapy in South Carolina?
+    content: Are you a board certified music therapist living in (or looking to move to) South Carolina? Are you a music therapy student living or studying in South Carolina? Are you a retired music therapist or community supporter living in South Carolina?
     actions:
     - label: Join us
       url: "/docs/membership"
