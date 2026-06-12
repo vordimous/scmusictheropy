@@ -9,6 +9,13 @@
 publish = "public"
 command = "npx tinacms build && hugo --gc --minify"
 
+# Shared across all contexts. The Tina client ID is a PUBLIC value (it ships to
+# the browser), so it's safe to commit here. The secret TINA_TOKEN must NOT go
+# in this file — set it in the Netlify dashboard (Site settings → Environment).
+[build.environment]
+NEXT_PUBLIC_TINA_CLIENT_ID = "d03ad52a-fe74-468f-81ea-82c754d30b99"
+TINA_BRANCH = "master"
+
 [context.production.environment]
 HUGO_VERSION = "0.163.1"
 NODE_VERSION = "22"
