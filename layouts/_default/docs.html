@@ -12,7 +12,7 @@
             </header><!-- .post-header -->
             <div class="post-content">
               {{ .Content }}
-              {{ $root_page_path := print .Site.Data.doc_sections.root_folder "_index.md" }}
+              {{ $root_page_path := print hugo.Data.doc_sections.root_folder "_index.md" }}
               {{ $current_page_path := print "/" .File.Path }}
               {{ if ne $root_page_path $current_page_path }}
                 {{ $child_pages_path := print "/" (.File.Dir | replaceRE "/$" "") }}

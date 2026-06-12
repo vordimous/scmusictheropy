@@ -15,8 +15,8 @@
   <div class="docs-block outer">
     <div class="inner">
       <div class="block-items">
-        {{ range $section := .Site.Data.doc_sections.sections }}
-          {{ $section_folder := print $.Site.Data.doc_sections.root_folder $section }}
+        {{ range $section := hugo.Data.doc_sections.sections }}
+          {{ $section_folder := print hugo.Data.doc_sections.root_folder $section }}
           {{ $section_page_path := print $section_folder "/_index.md" }}
           {{ $section_page := $.Site.GetPage "page" $section_page_path }}
           {{ $child_pages := where (($.Site.GetPage "section" $section_folder).Pages) "File.LogicalName" "!=" "_index.md" }}

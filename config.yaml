@@ -35,3 +35,7 @@ params:
 disableKinds:
 - RSS
 - taxonomy
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

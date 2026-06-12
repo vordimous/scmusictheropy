@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
-        <meta name="author" content="{{ .Site.Author.name }}" />
+        <meta name="author" content="{{ hugo.Data.author.name }}" />
 
         {{ if .Keywords }}
         <meta name="keywords" content="{{ delimit .Keywords ", " }}">
@@ -15,7 +15,7 @@
         {{ end }}
       
         <link async href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%26display=swap" rel="stylesheet"> 
-        <link async rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}">
+        <link async rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | css.Sass (dict "outputStyle" "expanded")).Permalink }}">
         
     </head>
     <body>
