@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2026-03-01T15:00:00Z
-excerpt = "(3 CMTE credits) Saturday, March 28, 2026 @ Charleston Southern University, North Charleston, SC"
-layout = "post"
-subtitle = "(3 CMTE credits) Saturday, March 28, 2026 @ Charleston Southern University, North Charleston, SC"
-thumb_img_path = ""
-title = "Music Therapy Ethics and Clinical Decision Making"
-
-+++
+---
+title: "Music Therapy Ethics and Clinical Decision Making"
+date: 2026-03-01T15:00:00Z
+meeting_date: 2026-03-28
+excerpt: "(3 CMTE credits) Saturday, March 28, 2026 @ Charleston Southern University, North Charleston, SC"
+layout: post
+---
 
 # Music Therapy Ethics and Clinical Decision Making
 

@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2025-09-02T15:00:00Z
-excerpt = "(5 CMTE credits) Saturday, October 4, 2025 @ Converse University, Spartanburg, SC"
-layout = "post"
-subtitle = "(3 CMTE credits) Saturday, September 6, 2025 @ Converse University, Spartanburg, SC"
-thumb_img_path = ""
-title = "Improvising Clinical Themes: Creating Form to Foster Self-Expression and Agency"
-
-+++
+---
+title: "Improvising Clinical Themes: Creating Form to Foster Self-Expression and Agency"
+date: 2025-09-02T15:00:00Z
+meeting_date: 2025-10-04
+excerpt: "(5 CMTE credits) Saturday, October 4, 2025 @ Converse University, Spartanburg, SC"
+layout: post
+---
 
 # Improvising Clinical Themes: Creating Form to Foster Self-Expression and Agency
 

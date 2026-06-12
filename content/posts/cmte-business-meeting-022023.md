@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2023-01-01T15:00:00Z
-excerpt = "( 5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
-layout = "post"
-subtitle = "( 5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
-thumb_img_path = ""
-title = "CMTE/Business Meeting Feb 25th Music and the Brain"
-
-+++
+---
+title: "CMTE/Business Meeting Feb 25th Music and the Brain"
+date: 2023-01-01T15:00:00Z
+meeting_date: 2023-02-25
+excerpt: "(5 CMTEs) Saturday, February 25, 2023 @ MUSC Shawn Jenkins Children’s Hospital"
+layout: post
+---
 # Music and the Brain
 
 _Begins promptly at 10:00 AM – plan to arrive no later than 9:30 AM to register and greet your friends. MTASC business meeting to follow CMTE._

@@ -1,5 +1,7 @@
 <div class="block-item-cta">
   {{ range $action := .actions }}
-  <a href="{{ $action.url | relURL }}">{{ $action.label }} <span class="icon-arrow-right" aria-hidden="true"></span></a>
+  {{ $url := $action.url }}
+  {{ if eq $url "#next-meeting" }}{{ $url = partial "next_meeting.html" $ }}{{ end }}
+  <a href="{{ $url | relURL }}">{{ $action.label }} <span class="icon-arrow-right" aria-hidden="true"></span></a>
   {{ end }}
 </div>

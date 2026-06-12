@@ -1,24 +1,19 @@
 ---
-title: Task Force Newsletter
+title: "Task Force Newsletter"
 date: 2020-03-10
-thumb_img_path: ""
-content_img_path: ''
-excerpt: Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.
+excerpt: "Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions."
 layout: post
-subtitle: ''
-keywords: [
-    "state",
-    "bill",
-    "session",
-    "registry",
-    "legislators",
-    "licensure",
-    "recognition",
-    "protection",
-    "time",
-    "task",
-]
-
+keywords:
+  - state
+  - bill
+  - session
+  - registry
+  - legislators
+  - licensure
+  - recognition
+  - protection
+  - time
+  - task
 ---
 Your task force members wanted to update you on the status of our registry bill, as well as our plan for this session. Here are the newsletters from our last two sessions.
 
@@ -54,4 +49,3 @@ We still ask you to find your legislators and continue to develop a relationship
 - Contact your legislators or set up a meeting with your legislator to talk more about how you serve the people in their district and about the importance of professional state recognition. 
 - Invite them to your facility or ask if they would like to observe a session (if approved by your facility/client).
 - SHARE or repost SC MT content with your friends.
-

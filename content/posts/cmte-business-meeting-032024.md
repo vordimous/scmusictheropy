@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2024-03-01T15:00:00Z
-excerpt = "(5 CMTEs) Saturday, March 9, 2024  @ Converse University in Mayfarth Recital Hall, Spartanburg"
-layout = "post"
-subtitle = "(5 CMTEs) Saturday, March 9, 2024  @ Converse University in Mayfarth Recital Hall, Spartanburg"
-thumb_img_path = ""
-title = "CMTE/Business Meeting March 9th Music Technology in Clinical Work"
-
-+++
+---
+title: "CMTE/Business Meeting March 9th Music Technology in Clinical Work"
+date: 2024-03-01T15:00:00Z
+meeting_date: 2024-03-09
+excerpt: "(5 CMTEs) Saturday, March 9, 2024 @ Converse University in Mayfarth Recital Hall, Spartanburg"
+layout: post
+---
 
 # Music Technology in Clinical Work
 

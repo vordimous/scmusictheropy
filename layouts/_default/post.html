@@ -2,17 +2,19 @@
 
   <article class="post post-full">
     <header class="post-header bg-gradient outer">
-      {{ if .Params.content_img_path }}
-      <div class="bg-img" style="background-image: url('{{ .Params.content_img_path | relURL }}')"></div>
+      {{ with .Params.featured_image }}
+      <div class="bg-img" style="background-image: url('{{ . | relURL }}')"></div>
       {{ end }}
       <div class="inner-small">
-        <!-- <div class="post-meta">
-          <time class="published" datetime="{{ .Date | dateFormat "2006-01-02 15:04" }}">{{ .Date | dateFormat "January 02, 2006" }}</time>
-        </div>--> <!-- .post-meta -->
+        {{ with .Params.meeting_date }}
+        <div class="post-meta">
+          <time class="published" datetime="{{ . | dateFormat "2006-01-02" }}">{{ . | dateFormat "Monday, January 2, 2006" }}</time>
+        </div><!-- .post-meta -->
+        {{ end }}
         <h1 class="post-title">{{ .Params.title }}</h1>
-        {{ if .Params.subtitle }}
+        {{ with .Params.excerpt }}
         <div class="post-subtitle">
-          {{ .Params.subtitle | safeHTML }}
+          {{ . | safeHTML }}
         </div><!-- .post-subtitle -->
         {{ end }}
       </div><!-- .inner-small -->

@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2024-10-01T15:00:00Z
-excerpt = "(3 CMTE credits) Saturday, October 26, 2024 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
-layout = "post"
-subtitle = "(3 CMTE credits) Saturday, October 26, 2024 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
-thumb_img_path = ""
-title = "CMTE/Business Meeting Oct 26th Research, PTSD, Addiction and Veterans - What Can We Learn?"
-
-+++
+---
+title: "CMTE/Business Meeting Oct 26th Research, PTSD, Addiction and Veterans - What Can We Learn?"
+date: 2024-10-01T15:00:00Z
+meeting_date: 2024-10-26
+excerpt: "(3 CMTE credits) Saturday, October 26, 2024 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
+layout: post
+---
 
 # Research, PTSD, Addiction and Veterans - What Can We Learn?
 

@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2022-01-01T15:00:00Z
-excerpt = "Saturday, September 26th at 9:30am"
-layout = "post"
-subtitle = ""
-thumb_img_path = ""
-title = "CMTE/Business Meeting Feb. 12th"
-
-+++
+---
+title: "CMTE/Business Meeting Feb. 12th"
+date: 2022-01-01T15:00:00Z
+meeting_date: 2022-02-12
+excerpt: "Saturday, February 12, 2022 at 9:00am"
+layout: post
+---
 Virtual Spring CMTE and Business Meeting is on Saturday, February 12th at 9:00 am
 
 [Flyer](/images/2022-mtasc-cmte-info.pdf "Flyer")

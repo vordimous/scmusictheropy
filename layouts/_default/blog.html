@@ -18,9 +18,9 @@
         {{ $display_posts := ((.Site.GetPage "section" "/posts").Pages).ByDate.Reverse }}
         {{ range $post := $display_posts }}
         <article class="post">
-          {{ if $post.Params.thumb_img_path }}
+          {{ with $post.Params.featured_image }}
           <a class="post-thumbnail" href="{{ $post.Page.Permalink }}">
-            <img class="thumbnail" src="{{ $post.Params.thumb_img_path | relURL }}" alt="{{ $post.Params.title }}" />
+            <img class="thumbnail" src="{{ . | relURL }}" alt="{{ $post.Params.title }}" />
           </a>
           {{ end }}
           <header class="post-header">

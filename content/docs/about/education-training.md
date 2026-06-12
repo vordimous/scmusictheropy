@@ -1,21 +1,20 @@
-+++
-excerpt = ""
-layout = "docs"
-title = "Education & Training"
-weight = 1
-keywords = [
-    "Charleston Southern University",
-    "Converse College",
-    "Palmetto Baptist Medical Center at Columbia",
-    "courses",
-    "field",
-    "students",
-    "clinical",
-    "board",
-    "professional",
-    "training",
-]
-+++
+---
+title: "Education & Training"
+excerpt: ""
+layout: docs
+weight: 1
+keywords:
+  - Charleston Southern University
+  - Converse College
+  - Palmetto Baptist Medical Center at Columbia
+  - courses
+  - field
+  - students
+  - clinical
+  - board
+  - professional
+  - training
+---
 ![](/images/11138525_10153993765884887_5373058585984600195_n.jpg)
 
 ## General Information

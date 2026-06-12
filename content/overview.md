@@ -4,8 +4,7 @@ subtitle: Are you a board certified music therapist living in (or looking to mov
   membership in the Music Therapy Association of South Carolina is for you!
 img_path: "/images/image001.jpg"
 sections:
-- type: ctablock
-  template: ctablock
+- _template: ctablock
   title: Find a Therapist
   section_id: cta
   component: cta_block.html

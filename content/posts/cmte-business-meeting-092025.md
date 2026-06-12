@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2025-09-01T15:00:00Z
-excerpt = "(3 CMTE credits) Saturday, September 6, 2025 @ Converse University, Spartanburg, SC"
-layout = "post"
-subtitle = "(3 CMTE credits) Saturday, September 6, 2025 @ Converse University, Spartanburg, SC"
-thumb_img_path = ""
-title = "Roots and Resonance: Exploring Your Music Therapy Journey"
-
-+++
+---
+title: "Roots and Resonance: Exploring Your Music Therapy Journey"
+date: 2025-09-01T15:00:00Z
+meeting_date: 2025-09-06
+excerpt: "(3 CMTE credits) Saturday, September 6, 2025 @ Converse University, Spartanburg, SC"
+layout: post
+---
 
 # Roots and Resonance: Exploring Your Music Therapy Journey
 

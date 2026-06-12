@@ -14,7 +14,9 @@
         {{ if .section.actions }}
         <div class="block-cta">
           {{ range $action := .section.actions }}
-          <a href="{{ $action.url | relURL }}" class="button">{{ $action.label }}</a>
+          {{ $url := $action.url }}
+          {{ if eq $url "#next-meeting" }}{{ $url = partial "next_meeting.html" $ }}{{ end }}
+          <a href="{{ $url | relURL }}" class="button">{{ $action.label }}</a>
           {{ end }}
         </div>
         {{ end }}

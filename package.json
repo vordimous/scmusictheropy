@@ -1,0 +1,15 @@
+{
+  "name": "scmusictherapy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Music Therapy Association of South Carolina — Hugo site managed with TinaCMS",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D -E -F --port 1313\"",
+    "build": "tinacms build && hugo --gc --minify",
+    "tina:build": "tinacms build"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^2.4.4",
+    "tinacms": "^3.9.1"
+  }
+}

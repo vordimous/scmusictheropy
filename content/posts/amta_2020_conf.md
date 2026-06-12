@@ -1,8 +1,8 @@
 ---
-title: The American Music Therapy Association 2020 Conference
-date: '2020-09-20'
-content_img_path: images/2.jpg
-excerpt: Thursday, November 19, 2020 - Sunday, November 22, 2020
+title: "The American Music Therapy Association 2020 Conference"
+date: 2020-09-20
+excerpt: "Thursday, November 19 – Sunday, November 22, 2020"
+featured_image: /images/2.jpg
 layout: post
 ---
 

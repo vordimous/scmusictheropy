@@ -1,0 +1,27 @@
+{{- /*
+  next_meeting.html — returns the RelPermalink of the meeting to feature.
+
+  A "meeting" is any post in /posts/ that has a `meeting_date` in its
+  front matter. This partial returns the soonest upcoming meeting
+  (meeting_date >= today); if there are none upcoming, it falls back to
+  the most recent past meeting. Returns "" if there are no meetings.
+
+  Used to auto-resolve the "#next-meeting" sentinel URL on buttons so the
+  home page never needs a hardcoded link to the next event.
+
+  Usage:  {{ partial "next_meeting.html" . }}
+*/ -}}
+{{- $meetings := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- if .Params.meeting_date -}}
+    {{- $meetings = $meetings | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $url := "" -}}
+{{- $upcoming := where $meetings "Params.meeting_date" ">=" now -}}
+{{- if $upcoming -}}
+  {{- $url = (index (sort $upcoming "Params.meeting_date" "asc") 0).RelPermalink -}}
+{{- else if $meetings -}}
+  {{- $url = (index (sort $meetings "Params.meeting_date" "desc") 0).RelPermalink -}}
+{{- end -}}
+{{- return $url -}}

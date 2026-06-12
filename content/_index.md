@@ -1,8 +1,7 @@
 ---
 title: Home
 sections:
-- type: heroblock
-  template: heroblock
+- _template: heroblock
   title: The Music Therapy Association of South Carolina
   section_id: hero
   component: hero_block.html
@@ -15,8 +14,7 @@ sections:
   actions:
   - label: Find out More
     url: docs/index.html
-- type: featuresblock
-  template: featuresblock
+- _template: featuresblock
   section_id: features
   component: features_block.html
   featureslist:
@@ -38,8 +36,7 @@ sections:
       url: "/docs/membership"
   title: ''
   subtitle: ''
-- type: contentblock
-  template: contentblock
+- _template: contentblock
   title: EDUCATION
   section_id: text-no-img
   component: content_block.html
@@ -52,8 +49,7 @@ sections:
   - label: For Profesionals
     url: "/docs/about/continuing-education"
   image: "/images/recognized_in_the_house.jpg"
-- type: ctablock
-  template: ctablock
+- _template: ctablock
   title: Our Board Certified Therapists
   section_id: cta
   component: cta_block.html
@@ -62,8 +58,7 @@ sections:
   actions:
   - label: Find a Therapist
     url: "/find-a-therapist"
-- type: contentblock
-  template: contentblock
+- _template: contentblock
   title: RELATED LINKS
   section_id: text-img
   component: content_block.html
@@ -93,7 +88,7 @@ sections:
     content: Here are some details about the next meeting
     actions:
     - label: Read More
-      url: "/posts/cmte-business-meeting-032026/"
+      url: "#next-meeting"
   subtitle: ''
 layout: home
 keywords:

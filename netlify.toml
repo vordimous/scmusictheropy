@@ -1,30 +1,44 @@
+# Build runs TinaCMS first (compiles the /admin app + content client), then Hugo.
+# Required environment variables (set in the Netlify/Cloudflare dashboard):
+#   NEXT_PUBLIC_TINA_CLIENT_ID  – from your Tina Cloud project
+#   TINA_TOKEN                  – read-only token from Tina Cloud
+#   TINA_BRANCH                 – usually "master"
+# `npm install` runs automatically because package.json is present.
+
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "npx tinacms build && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.163.1"
+NODE_VERSION = "22"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "hugo --gc --minify --enableGitInfo"
+command = "npx tinacms build && hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.163.1"
+NODE_VERSION = "22"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "npx tinacms build && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.163.1"
+NODE_VERSION = "22"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "npx tinacms build && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.163.1"
+NODE_VERSION = "22"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+# NOTE: Security + caching headers now live in static/_headers so they apply on
+# both Netlify and Cloudflare Pages. Do not re-add [[headers]] blocks here.

@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2023-10-01T15:00:00Z
-excerpt = "(3 CMTEs) Saturday, October 7, 2023 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
-layout = "post"
-subtitle = "(3 CMTEs) Saturday, October 7, 2023 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
-thumb_img_path = ""
-title = "CMTE/Business Meeting Oct 7th Practical Applications for Clinical Improvisation"
-
-+++
+---
+title: "CMTE/Business Meeting Oct 7th Practical Applications for Clinical Improvisation"
+date: 2023-10-01T15:00:00Z
+meeting_date: 2023-10-07
+excerpt: "(3 CMTEs) Saturday, October 7, 2023 @ Prisma Health Midlands (Baptist) Hospital, Columbia"
+layout: post
+---
 
 # Practical Applications for Clinical Improvisation
 

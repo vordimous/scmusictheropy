@@ -1,10 +1,9 @@
-+++
-img_path = ""
-layout = "docs"
-subtitle = "MTASC in the media"
-title = "Media"
-
-+++
+---
+title: "Media"
+subtitle: "MTASC in the media"
+img_path: ""
+layout: docs
+---
 
 ### Here are some current events to follow
 

@@ -1,13 +1,10 @@
-+++
-content_img_path = ""
-date = 2022-09-01T14:00:00Z
-excerpt = "( 3 CMTEs) Arts-based Inquiry and Therapeutic Presence: Enhancing Clinician Research"
-layout = "post"
-subtitle = "( 3 CMTEs) Saturday, September 24, 2022"
-thumb_img_path = ""
-title = "CMTE/Business Meeting Sep 24th 9am-2:30pm."
-
-+++
+---
+title: "CMTE/Business Meeting Sep 24th 9am-2:30pm."
+date: 2022-09-01T14:00:00Z
+meeting_date: 2022-09-24
+excerpt: "(3 CMTEs) Saturday, September 24, 2022 @ Prisma Health Baptist Hospital, Columbia"
+layout: post
+---
 _Begins promptly at 9:30 AM – plan to arrive no later than 9:00 AM to register and greet your friends.
 MTASC business meeting to follow CMTE._
 

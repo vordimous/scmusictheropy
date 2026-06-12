@@ -1,25 +1,51 @@
 <!doctype html>
-<html>
-    <head>    
-        
-        <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+<html lang="en">
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
+
+        <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+
+        {{/* Meta description — prefer per-page, fall back to site default */}}
+        {{ with .Description }}
+        <meta name="description" content="{{ . }}">
+        {{ else }}{{ with .Site.Params.description }}
+        <meta name="description" content="{{ . }}">
+        {{ end }}{{ end }}
+
         <meta name="author" content="{{ hugo.Data.author.name }}" />
 
         {{ if .Keywords }}
         <meta name="keywords" content="{{ delimit .Keywords ", " }}">
         {{ else if .Site.Params.DefaultKeywords }}
-        <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">	
+        <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
         {{ end }}
-      
-        <link async href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%26display=swap" rel="stylesheet"> 
-        <link async rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | css.Sass (dict "outputStyle" "expanded")).Permalink }}">
-        
+
+        {{/* Canonical URL */}}
+        <link rel="canonical" href="{{ .Permalink }}">
+
+        {{/* Open Graph */}}
+        <meta property="og:site_name" content="{{ .Site.Title }}">
+        <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+        <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+        <meta property="og:url" content="{{ .Permalink }}">
+        {{ with .Description }}<meta property="og:description" content="{{ . }}">
+        {{ else }}{{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}">{{ end }}{{ end }}
+        {{ with .Params.featured_image }}<meta property="og:image" content="{{ . | absURL }}">
+        {{ else }}{{ with .Params.img_path }}<meta property="og:image" content="{{ . | absURL }}">
+        {{ else }}{{ with .Site.Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+        {{ end }}{{ end }}
+
+        {{/* Google Fonts — preconnect for performance */}}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+
+        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | css.Sass (dict "outputStyle" "expanded")).Permalink }}">
     </head>
     <body>
-        
+
         <div id="page" class="site">
           {{ partial "header.html" . }}
           <main id="content" class="site-content">
@@ -27,9 +53,10 @@
           </main><!-- .site-content -->
           {{ partial "footer.html" . }}
         </div><!-- .site -->
+
         <!-- Scripts -->
         <script async src="{{ "assets/js/plugins.js" | relURL }}"></script>
         <script async src="{{ "assets/js/prism.js" | relURL }}" data-manual></script>
         <script async src="{{ "assets/js/main.js" | relURL }}"></script>
-    </body> 
+    </body>
 </html>
