@@ -37,16 +37,16 @@ const actionsField: TinaField = {
   ],
 };
 
-// Markdown body edited as raw markdown (textarea). We deliberately avoid
-// Tina's rich-text editor: the docs use Hugo shortcodes ({{< ref >}}) and raw
-// HTML, and meeting posts contain CBMT codes / escaped characters that a
-// rich-text round-trip would corrupt.
+// Page body — Tina's rich-text WYSIWYG editor (toolbar, headings, lists, links,
+// images, tables, plus a raw-markdown toggle). Stored as the markdown body of
+// each file. NOTE: rich-text is MDX-based, so managed content must NOT contain
+// Hugo shortcodes ({{< … >}}) or raw HTML — convert those to plain
+// markdown/links (see faq.md / continuing-education.md for examples).
 const bodyField: TinaField = {
-  type: "string",
+  type: "rich-text",
   name: "body",
   label: "Body",
   isBody: true,
-  ui: { component: "textarea" },
 };
 
 /* ------------------------------------------------------------------ *
@@ -308,6 +308,7 @@ const newsCollection: Collection = {
     }),
   },
   fields: [
+    // ── Content ──
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
     {
       type: "datetime",
@@ -316,6 +317,7 @@ const newsCollection: Collection = {
       required: true,
       description: "Controls ordering in the Updates feed.",
     },
+    bodyField,
     {
       type: "string",
       name: "excerpt",
@@ -324,9 +326,16 @@ const newsCollection: Collection = {
       description: "Short summary shown in the Updates list.",
     },
     { type: "image", name: "featured_image", label: "Featured Image" },
-    { type: "string", name: "keywords", label: "Keywords", list: true },
+    // ── SEO (optional — below the content) ──
+    {
+      type: "string",
+      name: "keywords",
+      label: "Keywords",
+      list: true,
+      description:
+        "SEO — optional search terms in the page’s metadata. Safe to leave as-is.",
+    },
     { type: "string", name: "layout", label: "Layout", ui: hidden },
-    bodyField,
   ],
 };
 
@@ -350,7 +359,9 @@ const resourcesCollection: Collection = {
     defaultItem: () => ({ category: "About", weight: 1 }),
   },
   fields: [
+    // ── Content (what you usually edit) ──
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+    bodyField,
     {
       type: "string",
       name: "excerpt",
@@ -358,28 +369,35 @@ const resourcesCollection: Collection = {
       ui: { component: "textarea" },
       description: "Short description shown in the resources grid and sidebar.",
     },
+    // ── Placement & SEO (rarely changed — lives below the content) ──
     {
       type: "string",
       name: "category",
       label: "Category",
       options: ["About", "Membership", "Community", "FAQ", "Helpful Links"],
       description:
-        "Groups this page in the Resources sidebar and index. Pick from the list — adding a brand-new category requires a developer.",
+        "PLACEMENT — groups this page in the Resources sidebar and index. Pick from the list; adding a brand-new category requires a developer.",
     },
     {
       type: "number",
       name: "weight",
       label: "Order",
-      description: "Lower numbers appear first within a category.",
+      description: "PLACEMENT — lower numbers appear first within a category.",
     },
     {
       type: "string",
       name: "subtitle",
       label: "Subtitle",
-      description: "Only used on the Resources home page.",
+      description: "Only used on the Resources home page; leave blank otherwise.",
     },
-    { type: "string", name: "keywords", label: "Keywords", list: true },
-    bodyField,
+    {
+      type: "string",
+      name: "keywords",
+      label: "Keywords",
+      list: true,
+      description:
+        "SEO — optional search terms in the page’s metadata. Most visitors never see these; safe to leave as-is.",
+    },
   ],
 };
 
@@ -396,8 +414,6 @@ const homeCollection: Collection = {
   ui: { allowedActions: { create: false, delete: false } },
   fields: [
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
-    { type: "string", name: "keywords", label: "Keywords", list: true },
-    { type: "string", name: "layout", label: "Layout", ui: hidden },
     {
       type: "object",
       name: "sections",
@@ -407,6 +423,15 @@ const homeCollection: Collection = {
       list: true,
       templates: [heroBlock, featuresBlock, contentBlock, ctaBlock] as any,
     },
+    {
+      type: "string",
+      name: "keywords",
+      label: "Keywords",
+      list: true,
+      description:
+        "SEO — optional search terms in the page’s metadata. Safe to leave as-is.",
+    },
+    { type: "string", name: "layout", label: "Layout", ui: hidden },
   ],
 };
 
@@ -423,15 +448,16 @@ const overviewCollection: Collection = {
   fields: [
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
     { type: "string", name: "subtitle", label: "Subtitle" },
-    { type: "image", name: "img_path", label: "Header Image" },
-    { type: "string", name: "layout", label: "Layout", ui: hidden },
     {
       type: "object",
       name: "sections",
       label: "Page Sections",
+      description: "The call-to-action blocks shown on the Members page. Drag to reorder.",
       list: true,
       templates: [contentBlock, ctaBlock] as any,
     },
+    { type: "image", name: "img_path", label: "Header Image" },
+    { type: "string", name: "layout", label: "Layout", ui: hidden },
   ],
 };
 
@@ -568,11 +594,29 @@ const headerCollection: Collection = {
       type: "string",
       name: "title",
       label: "Site Name",
-      description: "Shown in the header when no logo image is set.",
+      description:
+        "The text shown in the top-left of every page (currently “MTASC”). Only used when no logo image is uploaded.",
     },
-    { type: "image", name: "logo_img", label: "Logo Image" },
-    { type: "string", name: "url", label: "Logo / Title Link" },
-    { type: "boolean", name: "has_nav", label: "Show Navigation Menu" },
+    {
+      type: "image",
+      name: "logo_img",
+      label: "Logo Image",
+      description:
+        "Optional. Upload a logo to show in the top-left instead of the Site Name text.",
+    },
+    {
+      type: "string",
+      name: "url",
+      label: "Logo / Title Link",
+      description: "Where clicking the logo or site name goes. Almost always “/” (the home page).",
+    },
+    {
+      type: "boolean",
+      name: "has_nav",
+      label: "Show Navigation Menu",
+      description:
+        "Shows the top navigation menu. Leave ON. (The menu items themselves are set in config.yaml, not here.)",
+    },
   ],
 };
 
@@ -591,12 +635,20 @@ const footerCollection: Collection = {
       name: "content",
       label: "Footer Text",
       ui: { component: "textarea" },
+      description:
+        "The sentence shown at the bottom of every page, before the affiliate links (e.g. “…is an affiliate organization of”).",
     },
-    { type: "boolean", name: "has_social", label: "Show Social Icons" },
+    {
+      type: "boolean",
+      name: "has_social",
+      label: "Show Social Icons",
+      description: "Shows the social media icons in the footer (set them under Settings: Social Media).",
+    },
     {
       type: "object",
       name: "links",
       label: "Footer Links",
+      description: "The organization links listed in the footer (AMTA, SER-AMTA, CBMT).",
       list: true,
       ui: { itemProps: (i) => ({ label: i?.text || "Link" }) },
       fields: [
@@ -622,6 +674,8 @@ const socialCollection: Collection = {
       type: "object",
       name: "links",
       label: "Social Accounts",
+      description:
+        "Each entry is one icon in the footer. The Icon Class must be a valid FontAwesome brand name (e.g. fa-facebook, fa-instagram) or the icon won’t appear.",
       list: true,
       ui: { itemProps: (i) => ({ label: i?.title || "Account" }) },
       fields: [
@@ -649,9 +703,24 @@ const authorCollection: Collection = {
   match: { include: "author" },
   ui: { allowedActions: { create: false, delete: false } },
   fields: [
-    { type: "string", name: "name", label: "Name" },
-    { type: "string", name: "email", label: "Email" },
-    { type: "image", name: "avatar", label: "Avatar" },
+    {
+      type: "string",
+      name: "name",
+      label: "Name",
+      description: "Used in the hidden “author” metadata tag in each page’s HTML. Not shown on the site.",
+    },
+    {
+      type: "string",
+      name: "email",
+      label: "Email",
+      description: "Optional metadata. Not displayed on the site.",
+    },
+    {
+      type: "image",
+      name: "avatar",
+      label: "Avatar",
+      description: "Optional metadata image. Not currently shown on the site.",
+    },
   ],
 };
 
