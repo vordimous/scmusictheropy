@@ -159,18 +159,7 @@ const ctaBlock: TinaField = {
  * Pre-filled body skeleton for a new meeting post.
  * ------------------------------------------------------------------ */
 
-const meetingSkeleton = `# Course Title
-
-**(X CMTE credits)**
-
-**Saturday, Month Day, Year**
-**Venue, City, SC**
-
-**Begins promptly at 10:00 AM – plan to arrive no later than 9:30 AM to register and greet your friends. MTASC business meeting after lunch.**
-
-[PDF Flyer](/images/your-flyer.pdf "PDF Flyer")
-
-Register: <https://forms.gle/your-form>
+const meetingSkeleton = `**Begins promptly at 10:00 AM – plan to arrive no later than 9:30 AM to register and greet your friends. MTASC business meeting after lunch.**
 
 ## Course Description
 
@@ -222,27 +211,100 @@ _This course is approved by the Certification Board for Music Therapists (CBMT) 
  * Collections
  * ------------------------------------------------------------------ */
 
-const postsCollection: Collection = {
+const meetingsCollection: Collection = {
+  name: "meeting",
+  label: "Meetings",
+  description:
+    "CMTE meetings & events. Adding one here automatically updates the home page “Next Meeting” button — it always points at the meeting with the soonest upcoming Meeting Date. See MAINTENANCE.md for the flyer-to-post steps.",
+  path: "content/meetings",
+  format: "md",
+  frontmatterFormat: "yaml",
+  frontmatterDelimiters: "---",
+  ui: {
+    filename: {
+      slugify: (values) =>
+        `${(values?.title || "new-meeting")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)/g, "")}`,
+    },
+    // Pre-fill a new meeting with a clean body skeleton; key facts are fields.
+    defaultItem: () => ({
+      layout: "meeting",
+      date: new Date().toISOString(),
+      body: meetingSkeleton,
+    }),
+  },
+  fields: [
+    { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+    {
+      type: "datetime",
+      name: "meeting_date",
+      label: "Meeting Date",
+      required: true,
+      description:
+        "The date of the meeting/event. This drives the home page “Next Meeting” button.",
+    },
+    {
+      type: "datetime",
+      name: "date",
+      label: "Publish Date",
+      required: true,
+      description: "When this was posted (controls ordering in the Updates feed).",
+    },
+    {
+      type: "string",
+      name: "excerpt",
+      label: "Summary Line",
+      ui: { component: "textarea" },
+      description:
+        "Shown in the Updates list and under the title — e.g. “(3 CMTE credits) Saturday, March 28, 2026 @ Venue, City, SC”.",
+    },
+    { type: "string", name: "location", label: "Location" },
+    {
+      type: "string",
+      name: "cmte_credits",
+      label: "CMTE Credits",
+      description: "Number of credits, e.g. 3. Leave blank if none.",
+    },
+    {
+      type: "string",
+      name: "registration_url",
+      label: "Registration URL",
+      description: "The Google Form (or other) sign-up link.",
+    },
+    {
+      type: "string",
+      name: "flyer",
+      label: "Flyer (PDF)",
+      description: "Path to the flyer PDF, e.g. /images/your-flyer.pdf",
+    },
+    { type: "image", name: "featured_image", label: "Featured Image" },
+    { type: "string", name: "layout", label: "Layout", ui: hidden },
+    bodyField,
+  ],
+};
+
+const newsCollection: Collection = {
   name: "post",
-  label: "Posts & Announcements",
+  label: "News & Announcements",
+  description:
+    "General news and announcements that are NOT meetings (e.g. newsletters). These show up in the Updates feed alongside meetings, sorted by date.",
   path: "content/posts",
   format: "md",
   frontmatterFormat: "yaml",
   frontmatterDelimiters: "---",
   ui: {
     filename: {
-      // Friendly default filename; editors can change it.
       slugify: (values) =>
         `${(values?.title || "new-post")
           .toLowerCase()
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/(^-|-$)/g, "")}`,
     },
-    // Pre-fill a new meeting post with a clean skeleton.
     defaultItem: () => ({
       layout: "post",
       date: new Date().toISOString(),
-      body: meetingSkeleton,
     }),
   },
   fields: [
@@ -252,21 +314,14 @@ const postsCollection: Collection = {
       name: "date",
       label: "Publish Date",
       required: true,
-      description: "When this post was published (controls blog ordering).",
-    },
-    {
-      type: "datetime",
-      name: "meeting_date",
-      label: "Meeting / Event Date",
-      description:
-        "The date of the actual meeting or event. Set this for meetings — it drives the home page “Next Meeting” button. Leave blank for non-event posts.",
+      description: "Controls ordering in the Updates feed.",
     },
     {
       type: "string",
       name: "excerpt",
       label: "Excerpt",
       ui: { component: "textarea" },
-      description: "Short summary shown in the blog list.",
+      description: "Short summary shown in the Updates list.",
     },
     { type: "image", name: "featured_image", label: "Featured Image" },
     { type: "string", name: "keywords", label: "Keywords", list: true },
@@ -275,13 +330,25 @@ const postsCollection: Collection = {
   ],
 };
 
-const docsCollection: Collection = {
-  name: "docs",
+const resourcesCollection: Collection = {
+  name: "resources",
   label: "Resources",
-  path: "content/docs",
+  description:
+    "Informational pages (About, Membership, Community, FAQ, Helpful Links). Each page picks a Category, which decides where it appears in the Resources sidebar and index.",
+  path: "content/resources",
   format: "md",
   frontmatterFormat: "yaml",
   frontmatterDelimiters: "---",
+  ui: {
+    filename: {
+      slugify: (values) =>
+        `${(values?.title || "new-resource")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)/g, "")}`,
+    },
+    defaultItem: () => ({ category: "About", weight: 1 }),
+  },
   fields: [
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
     {
@@ -289,25 +356,38 @@ const docsCollection: Collection = {
       name: "excerpt",
       label: "Excerpt",
       ui: { component: "textarea" },
-      description: "Short description shown in the resources overview grid.",
+      description: "Short description shown in the resources grid and sidebar.",
+    },
+    {
+      type: "string",
+      name: "category",
+      label: "Category",
+      options: ["About", "Membership", "Community", "FAQ", "Helpful Links"],
+      description:
+        "Groups this page in the Resources sidebar and index. Pick from the list — adding a brand-new category requires a developer.",
     },
     {
       type: "number",
       name: "weight",
       label: "Order",
-      description: "Lower numbers appear first in the navigation.",
+      description: "Lower numbers appear first within a category.",
     },
-    { type: "string", name: "subtitle", label: "Subtitle" },
-    { type: "image", name: "img_path", label: "Header Image" },
+    {
+      type: "string",
+      name: "subtitle",
+      label: "Subtitle",
+      description: "Only used on the Resources home page.",
+    },
     { type: "string", name: "keywords", label: "Keywords", list: true },
-    { type: "string", name: "layout", label: "Layout", ui: hidden },
     bodyField,
   ],
 };
 
 const homeCollection: Collection = {
   name: "home",
-  label: "Home Page",
+  label: "Page: Home",
+  description:
+    "The front page, built from stackable sections you can reorder or add to. Tip: a button URL of #next-meeting is a magic link that always points to the latest meeting — leave it as-is.",
   path: "content",
   format: "md",
   frontmatterFormat: "yaml",
@@ -322,6 +402,8 @@ const homeCollection: Collection = {
       type: "object",
       name: "sections",
       label: "Page Sections",
+      description:
+        "Each section is a block of the page. Drag to reorder. “Section ID” is a technical anchor (no spaces) — only change it if you know why.",
       list: true,
       templates: [heroBlock, featuresBlock, contentBlock, ctaBlock] as any,
     },
@@ -330,7 +412,8 @@ const homeCollection: Collection = {
 
 const overviewCollection: Collection = {
   name: "overview",
-  label: "Members Overview",
+  label: "Page: Members",
+  description: "The Members page heading, image, and call-to-action sections.",
   path: "content",
   format: "md",
   frontmatterFormat: "yaml",
@@ -352,9 +435,66 @@ const overviewCollection: Collection = {
   ],
 };
 
-const therapistsCollection: Collection = {
+// Individual therapist records (one file each). Rendered as cards on the
+// Find a Therapist page. `_index.md` is excluded — it only carries build config.
+const therapistRecordsCollection: Collection = {
+  name: "therapist",
+  label: "Therapists",
+  description:
+    "The therapist directory. Each entry becomes one card on the Find a Therapist page. Add, edit, remove, and reorder these freely.",
+  path: "content/therapists",
+  format: "md",
+  frontmatterFormat: "yaml",
+  frontmatterDelimiters: "---",
+  match: { exclude: "_index" },
+  ui: {
+    filename: {
+      slugify: (values) =>
+        `${(values?.title || "new-therapist")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)/g, "")}`,
+    },
+    defaultItem: () => ({ weight: 99 }),
+  },
+  fields: [
+    {
+      type: "string",
+      name: "title",
+      label: "Practice / Therapist Name",
+      isTitle: true,
+      required: true,
+    },
+    {
+      type: "string",
+      name: "subtitle",
+      label: "Description",
+      ui: { component: "textarea" },
+      description:
+        "Name, credentials, and city — e.g. “Megan Danelz, MT-BC, NICU-MT Greenville, SC”.",
+    },
+    { type: "image", name: "logo", label: "Logo / Photo" },
+    {
+      type: "string",
+      name: "website",
+      label: "Website URL",
+      description: "Full URL including https://",
+    },
+    {
+      type: "number",
+      name: "weight",
+      label: "Order",
+      description: "Lower numbers appear first in the directory.",
+    },
+  ],
+};
+
+// The Find a Therapist page header/intro (the cards come from Therapists above).
+const therapistsPageCollection: Collection = {
   name: "find_a_therapist",
-  label: "Find a Therapist",
+  label: "Page: Find a Therapist",
+  description:
+    "Only the heading/intro of the Find a Therapist page. The therapist cards themselves come from the Therapists collection.",
   path: "content",
   format: "md",
   frontmatterFormat: "yaml",
@@ -367,35 +507,14 @@ const therapistsCollection: Collection = {
     { type: "image", name: "img_path", label: "Header Image" },
     { type: "string", name: "keywords", label: "Keywords", list: true },
     { type: "string", name: "layout", label: "Layout", ui: hidden },
-    {
-      type: "object",
-      name: "items",
-      label: "Therapists & Practices",
-      list: true,
-      ui: { itemProps: (i) => ({ label: i?.title || "Therapist" }) },
-      fields: [
-        { type: "string", name: "title", label: "Name / Practice" },
-        {
-          type: "string",
-          name: "subtitle",
-          label: "Description",
-          ui: { component: "textarea" },
-        },
-        { type: "image", name: "preview_img", label: "Logo / Photo" },
-        {
-          type: "string",
-          name: "url",
-          label: "Website URL",
-          description: "Full URL including https://",
-        },
-      ],
-    },
   ],
 };
 
 const blogCollection: Collection = {
   name: "blog",
-  label: "Blog Index",
+  label: "Page: Updates",
+  description:
+    "Only the heading/intro of the Updates page. The list of meetings and news below it is generated automatically.",
   path: "content/blog",
   format: "md",
   frontmatterFormat: "yaml",
@@ -415,7 +534,9 @@ const blogCollection: Collection = {
 // `layout` differs per file but is preserved because it's a declared field.
 const simplePagesCollection: Collection = {
   name: "page",
-  label: "Other Pages",
+  label: "Page: Contact / Dues / Thank-You",
+  description:
+    "Heading and intro text for the Contact, Dues, and form Thank-You pages. The contact form and PayPal buttons are built into the site and can’t be edited here.",
   path: "content",
   format: "md",
   frontmatterFormat: "yaml",
@@ -435,7 +556,9 @@ const simplePagesCollection: Collection = {
 
 const headerCollection: Collection = {
   name: "header",
-  label: "Site Header",
+  label: "⚙️ Settings: Header",
+  description:
+    "ADVANCED — affects every page. The site logo and name shown at the top. If you’re not sure, leave this alone or ask a developer.",
   path: "data",
   format: "yaml",
   match: { include: "header" },
@@ -455,7 +578,9 @@ const headerCollection: Collection = {
 
 const footerCollection: Collection = {
   name: "footer",
-  label: "Site Footer",
+  label: "⚙️ Settings: Footer",
+  description:
+    "ADVANCED — affects every page. The footer text and affiliate links (AMTA, SER-AMTA, CBMT).",
   path: "data",
   format: "yaml",
   match: { include: "footer" },
@@ -485,7 +610,9 @@ const footerCollection: Collection = {
 
 const socialCollection: Collection = {
   name: "social",
-  label: "Social Media",
+  label: "⚙️ Settings: Social Media",
+  description:
+    "ADVANCED — affects every page. The social icons shown in the footer. The Icon Class must be a valid FontAwesome name (e.g. fa-facebook).",
   path: "data",
   format: "json",
   match: { include: "social" },
@@ -512,34 +639,11 @@ const socialCollection: Collection = {
   ],
 };
 
-const docSectionsCollection: Collection = {
-  name: "doc_sections",
-  label: "Resource Sections",
-  path: "data",
-  format: "yaml",
-  match: { include: "doc_sections" },
-  ui: { allowedActions: { create: false, delete: false } },
-  fields: [
-    {
-      type: "string",
-      name: "root_folder",
-      label: "Root Folder",
-      ui: hidden,
-    },
-    {
-      type: "string",
-      name: "sections",
-      label: "Sections",
-      list: true,
-      description:
-        "Folder names under /docs/ shown in the Resources navigation, in order.",
-    },
-  ],
-};
-
 const authorCollection: Collection = {
   name: "author",
-  label: "Author Info",
+  label: "⚙️ Settings: Author",
+  description:
+    "ADVANCED — site metadata used in the page <head> (author name/email). Rarely needs changing.",
   path: "data",
   format: "json",
   match: { include: "author" },
@@ -568,18 +672,24 @@ export default defineConfig({
     },
   },
   schema: {
+    // Order here = order in the CMS sidebar. Grouped top-to-bottom:
+    // everyday content, then page text, then advanced site settings.
     collections: [
-      postsCollection,
-      therapistsCollection,
+      // ── Everyday content (edit these freely) ──
+      meetingsCollection,
+      newsCollection,
+      therapistRecordsCollection,
+      resourcesCollection,
+      // ── Page text (occasional edits) ──
       homeCollection,
+      therapistsPageCollection,
       overviewCollection,
       blogCollection,
       simplePagesCollection,
-      docsCollection,
+      // ── ⚙️ Site settings (advanced — affects every page) ──
       headerCollection,
       footerCollection,
       socialCollection,
-      docSectionsCollection,
       authorCollection,
     ],
   },

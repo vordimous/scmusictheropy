@@ -13,7 +13,7 @@ sections:
   image: "/images/cropped-MTASC.Logo2_2-4.jpg"
   actions:
   - label: Find out More
-    url: docs/index.html
+    url: /resources/
 - _template: featuresblock
   section_id: features
   component: features_block.html
@@ -23,7 +23,7 @@ sections:
       organization of the American Music Therapy Association (AMTA).
     actions:
     - label: Read More
-      url: docs/index.html
+      url: /resources/
   - title: Updates
     content: Keep up with what is going on.
     actions:
@@ -33,7 +33,7 @@ sections:
     content: Are you a board certified music therapist living in (or looking to move to) South Carolina? Are you a music therapy student living or studying in South Carolina? Are you a retired music therapist or community supporter living in South Carolina?
     actions:
     - label: Join us
-      url: "/docs/membership"
+      url: "/resources/membership/"
   title: ''
   subtitle: ''
 - _template: contentblock
@@ -45,9 +45,9 @@ sections:
     our organization, as well as information for students and professional therapists.
   actions:
   - label: For Students
-    url: "/docs/about/education-training"
+    url: "/resources/education-training/"
   - label: For Profesionals
-    url: "/docs/about/continuing-education"
+    url: "/resources/continuing-education/"
   image: "/images/recognized_in_the_house.jpg"
 - _template: ctablock
   title: Our Board Certified Therapists

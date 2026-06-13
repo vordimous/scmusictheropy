@@ -1,0 +1,17 @@
+# Redirects for the 2026 content restructure. Honored by both Netlify and
+# Cloudflare Pages. Specific rules first; the catch-alls must stay last.
+
+# Meetings moved out of /posts/ into their own /meetings/ section
+/posts/cmte-business-meeting-*   /meetings/cmte-business-meeting-:splat   301
+/posts/meeting20200926/          /meetings/meeting20200926/               301
+
+# Docs flattened into /resources/
+/docs/about/education-training/     /resources/education-training/     301
+/docs/about/continuing-education/   /resources/continuing-education/   301
+/docs/community/constitution/       /resources/constitution/           301
+/docs/community/media/              /resources/media/                  301
+/docs/faq/                          /resources/faq/                    301
+/docs/helpful-links/                /resources/helpful-links/          301
+/docs/membership/                   /resources/membership/             301
+# Anything else under /docs/ (incl. old grouping pages) → resources home
+/docs/*                             /resources/                        301

@@ -1,0 +1,39 @@
+{{ define "content" }}
+
+  <header class="page-header bg-gradient outer">
+    {{ with .Params.img_path }}
+    <div class="bg-img" style="background-image: url('{{ . | relURL }}')"></div>
+    {{ end }}
+    <div class="inner-small">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+      <p class="page-subtitle">{{ . }}</p>
+      {{ end }}
+    </div><!-- .inner-small -->
+  </header><!--.page-header -->
+
+  <div class="outer">
+    <div class="inner-medium">
+      <div class="post-feed">
+        {{ range .Pages.ByDate.Reverse }}
+        {{ $item := . }}
+        <article class="post">
+          {{ with $item.Params.featured_image }}
+          <a class="post-thumbnail" href="{{ $item.RelPermalink }}">
+            <img class="thumbnail" src="{{ . | relURL }}" alt="{{ $item.Title }}" />
+          </a>
+          {{ end }}
+          <header class="post-header">
+            <h2 class="post-title line-left"><a href="{{ $item.RelPermalink }}" rel="bookmark">{{ $item.Title }}</a></h2>
+          </header><!-- .post-header -->
+          {{ with $item.Params.excerpt }}
+          <p class="post-excerpt">{{ . }}</p>
+          {{ end }}
+          <p class="read-more"><a href="{{ $item.RelPermalink }}" class="read-more-link">Read More <span class="icon-arrow-right" aria-hidden="true"></span></a></p>
+        </article><!-- .post -->
+        {{ end }}
+      </div><!-- .post-feed -->
+    </div><!-- .inner-medium -->
+  </div><!-- .outer-->
+
+{{ end }}

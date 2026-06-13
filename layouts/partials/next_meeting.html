@@ -12,7 +12,7 @@
   Usage:  {{ partial "next_meeting.html" . }}
 */ -}}
 {{- $meetings := slice -}}
-{{- range where site.RegularPages "Section" "posts" -}}
+{{- range where site.RegularPages "Section" "meetings" -}}
   {{- if .Params.meeting_date -}}
     {{- $meetings = $meetings | append . -}}
   {{- end -}}

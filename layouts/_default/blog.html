@@ -15,7 +15,8 @@
   <div class="outer">
     <div class="inner-medium">
       <div class="post-feed">
-        {{ $display_posts := ((.Site.GetPage "section" "/posts").Pages).ByDate.Reverse }}
+        {{/* Updates feed combines meetings + news/announcements, newest first */}}
+        {{ $display_posts := (where site.RegularPages "Section" "in" (slice "posts" "meetings")).ByDate.Reverse }}
         {{ range $post := $display_posts }}
         <article class="post">
           {{ with $post.Params.featured_image }}

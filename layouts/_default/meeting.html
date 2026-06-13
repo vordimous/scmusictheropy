@@ -1,0 +1,45 @@
+{{ define "content" }}
+
+  <article class="post post-full">
+    <header class="post-header bg-gradient outer">
+      {{ with .Params.featured_image }}
+      <div class="bg-img" style="background-image: url('{{ . | relURL }}')"></div>
+      {{ end }}
+      <div class="inner-small">
+        {{ with .Params.meeting_date }}
+        <div class="post-meta">
+          <time class="published" datetime="{{ . | dateFormat "2006-01-02" }}">{{ . | dateFormat "Monday, January 2, 2006" }}</time>
+        </div><!-- .post-meta -->
+        {{ end }}
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{ with .Params.excerpt }}
+        <div class="post-subtitle">
+          {{ . | safeHTML }}
+        </div><!-- .post-subtitle -->
+        {{ end }}
+      </div><!-- .inner-small -->
+    </header><!-- .post-header -->
+    <div class="outer">
+      <div class="inner-medium">
+        <div class="post-content">
+
+          {{/* Structured event details — edited as fields in the CMS */}}
+          <aside class="meeting-details">
+            <ul class="meeting-facts">
+              {{ with .Params.meeting_date }}<li><strong>When:</strong> {{ . | dateFormat "Monday, January 2, 2006" }}</li>{{ end }}
+              {{ with .Params.location }}<li><strong>Where:</strong> {{ . }}</li>{{ end }}
+              {{ with .Params.cmte_credits }}<li><strong>CMTE Credits:</strong> {{ . }}</li>{{ end }}
+            </ul>
+            <div class="meeting-actions">
+              {{ with .Params.registration_url }}<a href="{{ . }}" class="button" target="_blank" rel="noopener">Register</a>{{ end }}
+              {{ with .Params.flyer }}<a href="{{ . | relURL }}" class="button secondary" target="_blank" rel="noopener">Download Flyer (PDF)</a>{{ end }}
+            </div>
+          </aside>
+
+          {{ .Content }}
+        </div><!-- .post-content -->
+      </div><!-- .inner-medium -->
+    </div><!-- .outer-->
+  </article><!-- .post -->
+
+{{ end }}

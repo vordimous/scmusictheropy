@@ -12,7 +12,7 @@ sections:
     client? Find a music therapy private practice near you!
   actions:
   - label: Get Started
-    url: "/docs/membership/index.html"
+    url: "/resources/membership/"
 layout: overview
 
 ---

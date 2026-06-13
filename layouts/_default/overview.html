@@ -12,31 +12,6 @@
     </div><!-- .inner-small -->
   </header><!--.page-header -->
 
-  <div class="docs-block outer">
-    <div class="inner">
-      <div class="block-items">
-        {{ range $section := hugo.Data.doc_sections.sections }}
-          {{ $section_folder := print hugo.Data.doc_sections.root_folder $section }}
-          {{ $section_page_path := print $section_folder "/_index.md" }}
-          {{ $section_page := $.Site.GetPage "page" $section_page_path }}
-          {{ $child_pages := where (($.Site.GetPage "section" $section_folder).Pages) "File.LogicalName" "!=" "_index.md" }}
-          {{ $child_count := $child_pages | len }}
-          {{ $has_children := cond (gt $child_count 0) true false }}
-
-          <section class="block-item">
-            <div class="block-item-inside">
-              <h2 class="block-item-title{{ if $has_children }} line-left{{ end }}"><a href="{{ $section_page.Permalink }}">{{ $section_page.Title }}</a></h2>
-              {{ if $section_page.Params.excerpt }}
-                <p class="block-item-text">{{ $section_page.Params.excerpt | safeHTML }}</p>
-                <p class="block-item-cta"><a href="{{ $section_page.Permalink }}">Learn More <span class="icon-arrow-right" aria-hidden="true"></span></a></p>
-              {{ end }}
-            </div><!-- .block-item-inside -->
-          </section><!-- .block-item -->
-        {{ end }}
-      </div><!-- .block-items -->
-    </div><!-- .inner -->
-  </div><!-- .docs-block -->
-
   {{ range $section := .Params.sections }}
     {{ $include_dict := dict "section" $section "Site" $.Site }}
     {{ partial $section.component $include_dict }}

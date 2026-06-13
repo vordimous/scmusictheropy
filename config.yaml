@@ -37,6 +37,22 @@ params:
     - Music
     - Therapy
     - Music Therapy
+# Top navigation. Defined here (not in page front matter) so the CMS can edit
+# page content without risking the menu.
+menus:
+  main:
+    - name: Find a Therapist
+      pageRef: /find-a-therapist
+      weight: 1
+    - name: Contact
+      pageRef: /contact
+      weight: 2
+    - name: Membership
+      pageRef: /resources/membership
+      weight: 3
+    - name: Updates
+      pageRef: /blog
+      weight: 4
 disableKinds:
 - RSS
 - taxonomy

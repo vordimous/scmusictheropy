@@ -15,17 +15,21 @@
   <div class="showcase-block outer">
     <div class="inner">
       <div class="block-items">
-        {{ range $item := .Params.items }}
+        {{/* Therapist records live in content/therapists/ (one file each). */}}
+        {{ $therapists := slice }}
+        {{ with site.GetPage "/therapists" }}{{ $therapists = .Pages }}{{ end }}
+        {{ range sort $therapists "Weight" }}
         <section class="block-item">
           <div class="block-item-inside">
-            {{ if $item.preview_img }}
-            <a class="block-item-preview" href="{{ $item.url }}">
-              <img class="thumbnail" src="{{ $item.preview_img | relURL }}" alt="{{ $item.title }}" />
+            {{ $therapist := . }}
+            {{ with .Params.logo }}
+            <a class="block-item-preview" href="{{ $therapist.Params.website }}">
+              <img class="thumbnail" src="{{ . | relURL }}" alt="{{ $therapist.Title }}" />
             </a>
             {{ end }}
-            <h2 class="block-item-title"><a href="{{ $item.url }}">{{ $item.title }}</a></h2>
-            {{ if $item.subtitle }}
-            <p class="block-item-text">{{ $item.subtitle | safeHTML }}</p>
+            <h2 class="block-item-title"><a href="{{ .Params.website }}">{{ .Title }}</a></h2>
+            {{ with .Params.subtitle }}
+            <p class="block-item-text">{{ . | safeHTML }}</p>
             {{ end }}
           </div><!-- .block-item-inside -->
         </section><!-- .block-item -->

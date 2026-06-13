@@ -1,0 +1,21 @@
+{{ define "content" }}
+
+  <div class="outer">
+    <div class="inner">
+      <div class="docs-content">
+        {{ partial "resources_nav.html" (dict "page" .) }}
+        <article class="post type-docs">
+          <div class="post-inside">
+            <header class="post-header">
+              <h1 class="post-title line-left">{{ .Title }}</h1>
+            </header><!-- .post-header -->
+            <div class="post-content">
+              {{ .Content }}
+            </div><!-- .post-content -->
+          </div><!-- .post-inside -->
+        </article><!-- .post -->
+      </div><!-- .docs-content -->
+    </div><!-- .inner-->
+  </div><!-- .outer -->
+
+{{ end }}

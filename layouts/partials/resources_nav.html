@@ -1,0 +1,47 @@
+{{- /*
+  resources_nav.html — sidebar for the Resources section, styled to match the
+  original docs menu. Groups resource pages by their `category` field:
+  categories with one page show as a direct link; categories with several pages
+  show as a collapsible group (like the old About / Community sections).
+  Usage: {{ partial "resources_nav.html" (dict "page" .) }}
+*/ -}}
+<nav id="docs-nav" class="docs-nav">
+  <div id="docs-nav-inside" class="docs-nav-inside sticky">
+    <button id="docs-nav-toggle" class="docs-nav-toggle">Navigate Resources<span class="icon-angle-right" aria-hidden="true"></span></button>
+    <div class="docs-toc-wrap">
+      <ul id="docs-toc" class="docs-toc">
+        {{ $page := .page }}
+        {{ $curURL := "" }}
+        {{ $curCat := "" }}
+        {{ with $page }}{{ $curURL = .RelPermalink }}{{ $curCat = .Params.category }}{{ end }}
+        {{ $resources := where site.RegularPages "Section" "resources" }}
+
+        <li class="toc-item{{ if eq $curURL "/resources/" }} current{{ end }}">
+          <a href="/resources/">Resources Home</a>
+        </li>
+
+        {{ range $cat := (slice "About" "Membership" "Community" "FAQ" "Helpful Links") }}
+          {{ $pages := sort (where $resources "Params.category" $cat) "Weight" }}
+          {{ if eq (len $pages) 1 }}
+            {{ $p := index $pages 0 }}
+            <li class="toc-item{{ if eq $curURL $p.RelPermalink }} current{{ end }}">
+              <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+            </li>
+          {{ else if gt (len $pages) 1 }}
+            <li class="toc-item has-children{{ if eq $cat $curCat }} active{{ end }}">
+              <a href="{{ (index $pages 0).RelPermalink }}">{{ $cat }}</a>
+              <button class="submenu-toggle"><span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span></button>
+              <ul class="toc-submenu">
+                {{ range $pages }}
+                <li class="toc-item{{ if eq $curURL .RelPermalink }} current{{ end }}">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul><!-- .docs-toc -->
+    </div><!-- .docs-toc-wrap -->
+  </div><!-- .docs-nav-inside -->
+</nav><!-- .docs-nav -->
