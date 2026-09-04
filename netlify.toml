@@ -1,17 +1,17 @@
-# Build runs TinaCMS first (compiles the /admin app + content client), then Hugo.
-# Required environment variables (set in the Netlify/Cloudflare dashboard):
-#   NEXT_PUBLIC_TINA_CLIENT_ID  – from your Tina Cloud project
-#   TINA_TOKEN                  – read-only token from Tina Cloud
-#   TINA_BRANCH                 – usually "master"
-# `npm install` runs automatically because package.json is present.
+# The build is Hugo-only. The TinaCMS admin is still in the repo (tina/,
+# package.json) but is NOT built in CI — `tinacms build` requires a TINA_TOKEN
+# from Tina Cloud, and without it the whole deploy fails before Hugo ever runs.
+# To turn the CMS back on: set TINA_TOKEN in the Netlify dashboard (Site
+# settings -> Environment) and restore the `npx tinacms build && ` prefix on the
+# build commands below.
 
 [build]
 publish = "public"
-command = "npx tinacms build && hugo --gc --minify"
+command = "hugo --gc --minify"
 
-# Shared across all contexts. The Tina client ID is a PUBLIC value (it ships to
-# the browser), so it's safe to commit here. The secret TINA_TOKEN must NOT go
-# in this file — set it in the Netlify dashboard (Site settings → Environment).
+# Kept for when the Tina build is re-enabled. The client ID is a PUBLIC value
+# (it ships to the browser), so it's safe to commit here. The secret TINA_TOKEN
+# must NOT go in this file — set it in the Netlify dashboard.
 [build.environment]
 NEXT_PUBLIC_TINA_CLIENT_ID = "d03ad52a-fe74-468f-81ea-82c754d30b99"
 TINA_BRANCH = "master"
@@ -23,7 +23,7 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "npx tinacms build && hugo --gc --minify --enableGitInfo"
+command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.163.1"
@@ -31,14 +31,14 @@ NODE_VERSION = "22"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "npx tinacms build && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.163.1"
 NODE_VERSION = "22"
 
 [context.branch-deploy]
-command = "npx tinacms build && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.163.1"
